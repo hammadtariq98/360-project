@@ -1,0 +1,114 @@
+{
+	"en": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Technical specifications",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Information request",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "h ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"fr": {
+		"titleText": "NutriSow ",
+		"frames": {
+			"000-005": "1- Système d’alimentation de précision des truies en mise bas et en gestation.",
+			"006-011": "2- Avoir des truies calmes, des porcelets pleins d'énergie et un retour rapide au cycle reproducteur, ça vous intéresse?",
+			"012-016": "3- La distribution de la nourriture s’adapte au rythme des animaux.",
+			"017-022": "4- L'installation est rapide et peu coûteuse",
+			"021-027": "5- Réduisez vos coûts alimentaires et augmentez votre rendement kg par portée",
+			"028-032": "6- Optimisez les résultats pour les prochaines mises bas.",
+			"033-039": "7- Consultez, personnalisez et programmez du bout des doigts"
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": " ",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "1 450 641-4810",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Demande d'information",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://contact.monitrol.com/nutri-sow/",
+		"lnkInfo": " ",
+		"lnkContact": "https://monitrol.com/nous-joindre/",
+		"lnkCart": " "
+	},
+	"es": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Especificaciones técnicas",
+		"lblTechSpecification": "Comunicación",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Petición de información",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"styles": {
+		"titleText": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "21px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "center",
+			"marginBottom": "1px",
+			"padding": "10px"
+		},
+		"frames": {
+			"padding": "10px 20px 20px",
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "16px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "justify",
+			"marginBottom": "1px",
+			"overflowY": "auto",
+			"height": "38px"
+		},
+		"separator": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "14px"
+		}
+	},
+	"controlBar": {
+		"lnkSpriteZoom": [
+			{
+				"range": "000-0009",
+				"data": "public/animation/details/animation-360-NutriSow_D_00_00.jpg"
+			},
+			{
+				"range": "010-019",
+				"data": "public/animation/details/animation-360-NutriSow_D_00_01.jpg"
+			},
+			{
+				"range": "020-029",
+				"data": "public/animation/details/animation-360-NutriSow_D_00_02.jpg"
+			},
+			{
+				"range": "030-039",
+				"data": "public/animation/details/animation-360-NutriSow_D_00_03.jpg"
+			}
+        ]
+	}
+}

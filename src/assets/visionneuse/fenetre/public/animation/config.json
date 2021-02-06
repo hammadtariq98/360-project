@@ -1,0 +1,118 @@
+{
+	"en": {
+        "titleText": "Crank window",
+        "frames": {
+            "000-59": " "
+        },
+    
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Technical specifications",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Information request",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "h ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	 "fr": {
+        "titleText": "Fenêtre à battant",
+        "frames": {
+            "000-007": "1- Chez Portes & Fenêtres Président, nos fenêtres à battants, aussi appelées « fenêtres à manivelle », sont conçues et fabriquées selon les plus hauts standards de qualité.",
+            "008-015": "2- La création, le design, le choix des composants et la qualité de l’assemblage nous permettent de vous offrir un produit inégalé sur le marché.",
+            "016-022": "3- La fenêtre à battants s’ouvre sur le côté et vers l’extérieur, selon un axe vertical, à l’aide d’une manivelle.",
+            "023-030": "4- La fenêtre à battants s’ouvre sur le côté et vers l’extérieur, selon un axe vertical, à l’aide d’une manivelle.",
+            "031-037": "5- Elle est la solution idéale pour maximiser l’isolation de votre maison.",
+            "038-045": "6- Les fenêtres à battants sont faciles à nettoyer, car le mécanisme d’ouverture se déploie pour permettre l’accès au verre extérieur.",
+            "046-052": "7- Les fenêtres à battants sont faciles à nettoyer, car le mécanisme d’ouverture se déploie pour permettre l’accès au verre extérieur. ",
+            "053-059": "8- La moustiquaire se trouve à l’intérieur, ce qui la protège des intempéries et vous permet de la retirer facilement en prévision de l’hiver."
+        },
+    
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Spécificités",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "1 855 670-4777",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Demande d'information",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://www.portesetfenetrespresident.com/produits/fenetres-a-battant/",
+		"lnkInfo": "<center><img src='public/animation/details/IsothermaPlus-PortesFenetresPresident-legende.jpg' alt='Iso-Terma +' width='100%' height='100%'>",
+		"lnkContact": "https://www.portesetfenetrespresident.com/succursales-fr/",
+		"lnkCart": " "
+	},
+	 "es": {
+        "titleText": "Ventana de manivela",
+        "frames": {
+            "000-059": " "
+        },
+    
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Especificaciones técnicas",
+		"lblTechSpecification": "Comunicación",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Petición de información",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"styles": {
+		"titleText": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "21px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "center",
+			"marginBottom": "1px",
+			"padding": "10px"
+		},
+		"frames": {
+			"padding": "10px 20px 20px",
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "16px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "justify",
+			"marginBottom": "1px",
+			"overflowY": "auto",
+			"height": "55px"
+		},
+		"separator": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "14px"
+		}
+	},
+	"controlBar": {
+		"lnkSpriteZoom": [
+            {
+                "range": "000-015",
+                "data": "./public/animation/details/animation-360-fenetre_D_00_03.jpg"
+            },
+             {
+                "range": "016-030",
+                "data": "./public/animation/details/animation-360-fenetre_D_00_01.jpg"
+            },
+             {
+                "range": "031-045",
+                "data": "./public/animation/details/animation-360-fenetre_D_00_00.jpg"
+            },
+            {
+                "range": "046-060",
+                "data": "./public/animation/details/animation-360-fenetre_D_00_02.jpg"
+            }
+        ]
+	}
+}

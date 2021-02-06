@@ -1,0 +1,101 @@
+{
+	"en": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Technical specifications",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Information request",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "h ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"fr": {
+		"titleText": "Balance trieuse pour porcs engraisement",
+		"frames": {
+			"000-009": "1- Pesez facilement vos porcs et rentabilisez votre temps.",
+			"010-018": "2- Entrée simple et rapide des porcs.",
+			"019-028": "3- Diminue le coût de la main-d'oeuvre.",
+			"029-038": "4- Réduit les risques de blessures de l'éleveur et des animaux.",
+			"039-047": "5- Garantie l'uniformité à la sélection et cible le bon poids de sortie.",
+			"048-056": "6- Respect le bien-être de l'animal en diminuant la compétitivité et le stress."
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": " ",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": "1 450 641-4810",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://contact.monitrol.com/balance-trieuse/",
+		"lnkInfo": " ",
+		"lnkContact": "https://monitrol.com/nous-joindre/",
+		"lnkCart": " "
+	},
+	"es": {
+		"titleText": " ",
+		"frames": {
+			"000-056": "./public/animation/details/animation-360-balance-trieuse_D_00_01.jpg"
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Especificaciones técnicas",
+		"lblTechSpecification": "Comunicación",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Petición de información",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"styles": {
+		"titleText": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "21px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "center",
+			"marginBottom": "1px",
+			"padding": "10px"
+		},
+		"frames": {
+			"padding": "1px 1px 1px",
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "16px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "justify",
+			"marginBottom": "1px",
+			"overflowY": "auto",
+			"height": "40px"
+		},
+		"separator": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "14px"
+		}
+	},
+	"controlBar": {
+		"lnkSpriteZoom": [
+			{
+				"range": "00-056",
+				"data": "./public/animation/details/animation-360-balance-trieuse_D_00_01.jpg "
+            }
+        ]
+	}
+}

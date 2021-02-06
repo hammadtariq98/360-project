@@ -1,0 +1,110 @@
+{
+    "en": {
+        "titleText": " ",
+        "frames": {
+            "000-010": " ",
+            "011-020": " ",
+            "021-030": " ",
+            "031-040": " "
+        },
+        "lblCommunication": "Specificities",
+        "lblTechSpecification": "Communication",
+        "lnkPhone": " ",
+        "lnkMail": " ",
+        "lnkDownload": " ",
+        "lnkVideo": " ",
+        "lnkAudio": " ",
+        "lnkDoc": " ",
+        "lnkLink": " ",
+        "lnkInfo": " ",
+        "lnkContact": " ",
+        "lnkCart": " "
+    },
+
+    "fr": {
+        "titleText": "<b>Manteau de laine</b>",
+        "frames": {
+            "000-010": "Manteau modèle Ducati, couleur camel.",
+            "011-020": "Laine et polyester.",
+            "021-030": "Longueur pensé pour que vous puissiez porter votre habit en dessous.",
+            "031-040": "Laine et polyester."
+        },
+
+        "lnkComVveeZaV": " ",
+        "lblCommunication": "",
+        "lblTechSpecification": "Communication",
+        "lnkPhone": "450 467-6932",
+        "lnkMail": "jean-paul@revolutionnez.ca?Subject=Demande d'information",
+        "lnkDownload": " ",
+        "lnkVideo": " ",
+        "lnkAudio": " ",
+        "lnkDoc": " ",
+        "lnkLink": " ",
+        "lnkInfo": "Ce produit est disponible chez <a href='https://bo-bonhomme.com'  target='blank'> BO BONHOMME</a> au 265 rue Duvernay, Beloeil.<br><a href='https://bo-bonhomme.com' target='blank'> Prenez rendez-vous</a> ",
+        "lnkContact": "https://zfrmz.com/q3bX2oH6tUeYLExNZdXz",
+        "lnkCart": " "
+    },
+
+    "es": {
+           "titleText": " ",
+        "frames": {
+            "000-010": " ",
+            "011-020": " ",
+            "021-030": " ",
+            "031-040": " "
+        },
+   
+        "lnkComVveeZaV": "https://www.veeza-v.com/html/CallMember.php?Country=Canada&State=Quebec&City=McMasterville&Name=Revolutionnez&Language=ES&Audio=0&",
+        "lblCommunication": "Especificidades",
+        "lblTechSpecification": "Comunicación",
+        "lnkPhone": " ",
+        "lnkMail": " ",
+        "lnkDownload": " ",
+        "lnkVideo": " ",
+        "lnkAudio": " ",
+        "lnkDoc": " ",
+        "lnkLink": " ",
+        "lnkInfo": " ",
+        "lnkContact": " ",
+        "lnkCart": " "
+    },
+
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "20px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+
+    "controlBar": {
+        "lnkSpriteZoom": [
+            {
+                "range": "000-040",
+                "data": " "
+            }
+        ]
+    }
+}

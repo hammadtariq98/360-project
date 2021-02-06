@@ -1,0 +1,98 @@
+{
+	"en": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Technical specifications",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Information request",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "h ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"fr": {
+		"titleText": "Habit bourgogne",
+		"frames": {
+            "000-016": "1- Composition: laine Italienne et fibre laineuse de mohair.",
+            "017-032": "2- Moulin de réputation: VItal Barberis Canonico.",
+            "033-047": "3- Oser la couleur démontre la force de votre personnalité"
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "514-730-8560",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://bo-bonhomme.com/",
+		"lnkInfo": "Chez <a href='https://bo-bonhomme.com/' target='_blank'>Bobonhomme</a> trouvez votre complet sur-mesure<br>Prenez <a href='https://bo-bonhomme.com/prendre-rendez-vous/' target='_blank'>rendez-vous</a>",
+		"lnkContact": "https://bo-bonhomme.com/nous-joindre/",
+		"lnkCart": " "
+	},
+	"es": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Especificaciones técnicas",
+		"lblTechSpecification": "Comunicación",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Petición de información",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"styles": {
+		"titleText": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "21px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "center",
+			"marginBottom": "1px",
+			"padding": "10px"
+		},
+		"frames": {
+			"padding": "10px 20px 20px",
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "16px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "justify",
+			"marginBottom": "1px",
+			"overflowY": "auto",
+			"height": "35px"
+		},
+		"separator": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "14px"
+		}
+	},
+	"controlBar": {
+		"lnkSpriteZoom": [
+			{
+				"range": "00-040",
+				"data": " "
+            }
+        ]
+	}
+}

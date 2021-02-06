@@ -1,0 +1,129 @@
+{
+	"en": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Technical specifications",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Information request",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "h ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"fr": {
+		"titleText": "SpaceKap WILD",
+		"frames": {
+			"000-007": "1- Le SpaceKap WILD est le modèle idéal pour tous ceux qui recherchent des caractéristiques similaires à une fourgonnette traditionnelle.",
+			"008-014": "2- Avec une hauteur intérieure de 53 po, il est assez grand pour pouvoir circuler à l’intérieur, et présente l’avantage d’avoir des portes latérales pleine longueur permettant un accès depuis l’extérieur.",
+			"015-022": "3-  Ajoutez des tablettes de rangement en option et maximisez votre espace et sécurisez vos équipements",
+			"023-030": "4- L’ouverture étonnante de la porte latérale 24 x 84 po est la plus large dans l’industrie et élimine toute zone morte dans la partie cargo de votre véhicule.",
+			"031-037": "5- Le WILD est fait pour durer en utilisant de la fibre de verre de marque Owen Corning. Le composite rend les SpaceKap légers et résistants, et notre garantie à vie contre les défauts de fabrication en est la preuve.",
+			"038-045": "6- Faites un choix écoresponsable avec ce modèle, sa conception légère et aérodynamique permet une économie de carburant et d’argent."
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Spécificités",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "1-800-363-0655",
+		"lnkMail": " ",
+		"lnkDownload": "https://www.fibrobec.com/download/brochure-spacekap-2017/?wpdmdl=3398",
+		"lnkVideo": "",
+		"lnkAudio": " ",
+		"lnkDoc": "https://vimeo.com/175437498",
+		"lnkLink": "https://fibrobec.com/modele-wild/",
+		"lnkInfo": "Le modèle WILD jumelé à une camionnette de pleine grandeur offre un confort inégalé pour l’utilisateur de l’unité. Nos produits sont conçus de façon à séparer la section cabine de la section cargo, créant ainsi une barrière acoustique naturelle entre les outils et l’équipement que vous transportez. En effet, l’utilisateur n’entendra plus les bruits provenant de l’arrière durant le transport.<br>En plus de réduire le bruit, le SpaceKap prévient les émanations provenant de l’arrière lors du transport de produits chimiques, d’huile ou de gaz.<br>Le conducteur du SpaceKap pourra également profiter d’une cabine plus fraîche en été et plus chaude en hiver, parce qu’il contrôle mieux son espace cabine que dans une fourgonnette.<br>Finalement, advenant un malencontreux accident, le conducteur et ses passagers auront moins de chance d’être blessés et seront plus en sécurité. Le WILD est vraiment la meilleure alternative à la fourgonnette !",
+		"lnkContact": "https://fibrobec.com/contact/",
+		"lnkCart": " "
+	},
+	"es": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Especificaciones técnicas",
+		"lblTechSpecification": "Comunicación",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Petición de información",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"styles": {
+		"titleText": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "21px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "center",
+			"marginBottom": "1px",
+			"padding": "10px"
+		},
+		"frames": {
+			"padding": "10px 20px 20px",
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "16px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "justify",
+			"marginBottom": "1px",
+			"overflowY": "auto",
+			"height": "60px"
+		},
+		"separator": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "14px"
+		}
+	},
+	"controlBar": {
+		"lnkSpriteZoom": [
+			{
+				"range": "000-005",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_01.jpg"
+			},
+			{
+				"range": "006-010",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_02.jpg"
+			},
+			{
+				"range": "011-015",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_03.jpg"
+			},
+			{
+				"range": "016-020",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_04.jpg"
+			},
+			{
+				"range": "021-025",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_05.jpg"
+			},
+			{
+				"range": "026-030",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_06.jpg"
+			},
+			{
+				"range": "031-035",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_07.jpg"
+			},
+			{
+				"range": "036-039",
+				"data": "public/animation/details/animation-360-moto-Spyder_D_00_08.jpg"
+			}
+        ]
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"en": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Technical specifications",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Information request",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "h ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"fr": {
+		"titleText": "Veston beige décontracté.",
+		"frames": {
+            "000-012": "1- Déconstruit donc sans doublure intérieure, qui donne l'impression d'une deuxième peau. confort assuré.",
+            "013-024": "2- Composition: laine, coton et soie.",
+			"025-037": "3- Moulin de réputation: Guabello.",
+			"038-049": "3- Pensé pour l'été."
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "514-730-8560",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://bo-bonhomme.com/",
+		"lnkInfo": "Chez <a href='https://bo-bonhomme.com/' target='_blank'>Bobonhomme</a> trouvez votre complet sur-mesure<br>Prenez <a href='https://bo-bonhomme.com/prendre-rendez-vous/' target='_blank'>rendez-vous</a>",
+		"lnkContact": "https://bo-bonhomme.com/nous-joindre/",
+		"lnkCart": " "
+	},
+	"es": {
+		"titleText": " ",
+		"frames": {
+			"000-040": " "
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Especificaciones técnicas",
+		"lblTechSpecification": "Comunicación",
+		"lnkPhone": " ",
+		"lnkMail": "jean-paul@revolutionnez.ca?Subject=Petición de información",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": " ",
+		"lnkContact": " ",
+		"lnkCart": " "
+	},
+	"styles": {
+		"titleText": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "21px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "center",
+			"marginBottom": "1px",
+			"padding": "10px"
+		},
+		"frames": {
+			"padding": "10px 20px 20px",
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "16px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "justify",
+			"marginBottom": "1px",
+			"overflowY": "auto",
+			"height": "45px"
+		},
+		"separator": {
+			"fontFamily": "Helvetica,Arial,sans-serif",
+			"color": "#999999",
+			"fontSize": "14px"
+		}
+	},
+	"controlBar": {
+		"lnkSpriteZoom": [
+			{
+				"range": "00-040",
+				"data": " "
+            }
+        ]
+	}
+}
