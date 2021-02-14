@@ -10,9 +10,9 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <ul class="menu-secondaire">
-                                <li><a href="apropos.html">À propos</a></li>
-                                <li><a href="soumission.html">Soumission</a></li>
-                                <li><a href="nous-joindre.html">Nous joindre</a></li>
+                                <li><router-link to="/apropos">À propos</router-link></li>
+                                <li><router-link to="/soumission">Soumission</router-link></li>
+                                <li><router-link to="/nous-joindre">Nous joindre</router-link></li>
                             </ul>
                         </div>
                     </div>
@@ -26,9 +26,9 @@
                                     <div class="dropdown">
                                         <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Animation 360 <span class="caret"></span></a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <li><a href="animation360-visionneuse.html">Notre visionneuse</a></li>
-                                            <li><a href="animation360-hologramme.html">Hologramme 360</a></li>
-                                            <li><a href="animation360-dessin-technique.html">Dessin technique 360</a></li>
+                                            <li><router-link to="/animation360-visionneuse">Notre visionneuse</router-link></li>
+                                            <li><router-link to="/animation360-hologramme">Hologramme 360</router-link></li>
+                                            <li><router-link to="/animation360-dessin-technique">Dessin technique 360</router-link></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -93,24 +93,24 @@
                             <div class="row menu">
                                 <div class="col-12" style="padding:0;">
                                     <div class="row menu-secondaire">
-                                        <div class="col-6 ms1"><a href="#">À propos</a></div>
-                                        <div class="col-6 ms2"><a href="soumission.html">Soumission</a></div>
-                                        <div class="col-6 ms3"><a href="nous-joindre.html">Nous joindre</a></div>
+                                        <div class="col-6 ms1"><router-link to="/apropos">À propos</router-link></div>
+                                        <div class="col-6 ms2"><router-link to="/soumission">Soumission</router-link></div>
+                                        <div class="col-6 ms3"><router-link to="/nous-joindre">Nous joindre</router-link></div>
                                     </div>
                                     <div id="accordion">
-                                        <div class="solo"><a href="innovation.html">Innovation</a></div>
+                                        <div class="solo"><router-link to="/innovation">Innovation</router-link></div>
                                         <div id="headingOne" class="title" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Animation 360<span class="caret"></span></div>
                                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                             <ul>
-                                                <li><a href="animation360-visionneuse.html">Notre visionneuse</a></li>
-                                                <li><a href="animation360-hologramme.html">Hologramme 360</a></li>
-                                                <li><a href="animation360-dessin-technique.html">Dessin technique 360</a></li>
+                                                <li><router-link to="/animation360-visionneuse">Notre visionneuse</router-link></li>
+                                                <li><router-link to="/animation360-hologramme">Hologramme 360</router-link></li>
+                                                <li><router-link to="/animation360-dessin-technique">Dessin technique 360</router-link></li>
                                             </ul>
                                         </div>
                                         <div id="headingTwo" class="title" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Photos produit<span class="caret"></span></div>
                                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                             <ul>
-                                                <li><a href="#">Photos unitaires ou en série</a></li>
+                                                <li><router-link to="#">Photos unitaires ou en série</router-link></li>
                                                 <li><a href="produit-photos-haute-vitesse.html">Photos haute vitesse</a></li>
                                             </ul>
                                         </div>

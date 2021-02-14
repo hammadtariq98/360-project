@@ -36,19 +36,8 @@
             </div>
         </div>
       </section>
-      <!-- general  -->
-      <section class="container galerie">
-        <div class="row">
-            <div class="col-sm-12">
-                <ul>
-                    <li class="preview"><a href="portfolio-semoir.html" target="_blank"><img src="./../assets/images/thumbnails/animation-360-semoir.jpg" alt="Visionneuse 360 | Industrie – Semoir"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a></li>
-                    <li class="preview"><a href="portfolio-spyder.html" target="_blank"><img src="./../assets/images/thumbnails/animation-360-spyder.jpg" alt="Visionneuse 360 | Objet volumineux – Spyder"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a></li>
-                    <li class="preview"><a href="portfolio-balance-trieuse.html" target="_blank"><img src="./../assets/images/thumbnails/animation-360-balance-trieuse.jpg" alt="Visionneuse 360 | Industrie – Balance trieuse"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a></li>
-                    <li class="preview"><a href="portfolio-sideBySide.html" target="_blank"><img src="./../assets/images/thumbnails/animation-360-sideBySide.jpg" alt="Visionneuse 360 | Objet volumineux – Side By Side"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span></a></li>
-                </ul>
-            </div>
-        </div>
-      </section>
+      <!-- Portfolio  -->
+      <Portfolios :previews="previews" />
       <!-- divider section -->
       <section class="container">
         <div class="row">
@@ -92,15 +81,23 @@
 <script>
 import Header from "./../components/Header/Header";
 import Footer from "./../components/Footer/Footer";
+import Portfolios from '../components/Portfolios/Portfolios.vue';
 
 export default {
   name: "Innovation",
   components: {
     Header,
-    Footer
+    Footer,
+    Portfolios
   },
   data() {
-   return {
+    return {
+      previews : [
+        {link:"portfolio-semoir", imageUrl:"animation-360-semoir.jpg"},
+        {link:"portfolio-spyder", imageUrl:"animation-360-spyder.jpg"},
+        {link:"portfolio-balance-trieuse", imageUrl:"animation-360-balance-trieuse.jpg"},
+        {link:"portfolio-sideBySide", imageUrl:"animation-360-sideBySide.jpg"},
+      ]
     }
   }
 }

@@ -88,6 +88,11 @@ a.anchor {
 .B50 {padding-bottom:50px;}
 .B60 {padding-bottom:60px;}
 
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 @font-face {font-family: 'slick'; font-weight: normal; font-style: normal; src: url('fonts/slick.eot'); src: url('fonts/slick.eot?#iefix') format('embedded-opentype'), url('fonts/slick.woff') format('woff'), url('fonts/slick.svg#slick') format('svg');}
 @font-face {font-display: block; font-family: Roboto; src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")}
 @font-face {font-display: fallback; font-family: Roboto; font-weight: 600; src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")}
@@ -685,7 +690,7 @@ main#page .description h4 {font-size:14px; line-height:22px; font-weight:bold; m
 main#page .description h5 {font-size:13px; line-height:17px; font-weight:bold; color: #000; font-family: 'Open Sans', sans-serif;}
 main#page .description .bloc {margin-bottom:25px; padding-right:30px;}
 main#page .description .bloc h2 {font-size:16px; line-height:25px; margin-bottom:10px; font-weight:bold; color:#039;}
-/* main#page .description .bloc .details {} */
+/*#page .description .bloc .details {} */
 main#page .description .bloc .liste ul {padding-left:20px; list-style: none;}
 main#page .description .bloc .liste ul li::before {content: "\2022"; color:#F00; display: inline-block; width:20px; margin-left: -20px;}
 main#page .description .bloc .liste2 ul {padding-left:20px; list-style: none; padding-top:5px;}
@@ -710,57 +715,53 @@ main#page .galerie ul li.preview a:hover img {opacity: 1;}
 main#page .galerie ul li.preview a .glyphicon {position: absolute; top:60px; left:60px; font-size:50px; color:#111; opacity: 0.5; z-index: 10;}
 main#page .galerie ul li.preview a:hover .glyphicon {color:#fff; opacity: 0.9;}
 
-#page.apropos main .visuel iframe {width:100%; height:400px; margin-top:75px;}
-#page.innovation main .visuel iframe {width:100%; height:500px; margin-top:75px;}
-#page.animation360-visionneuse main .visuel iframe {width:100%; height:600px; margin-top:75px;}
-#page.animation360-hologramme main .visuel iframe {width:100%; height:375px; margin-top:175px;}
-#page.animation360-dessin-technique main .visuel iframe {width:100%; height:250px; margin-top:175px;}
-#page.realisation.President main .visuel iframe {width:100%; height:800px; margin-top:75px;}
-#page.realisation.Fibrobec main .visuel iframe {width:100%; height:700px; margin-top:125px;}
-#page.realisation.IASO main .visuel iframe {width:100%; height:900px; margin-top:75px;}
-#page.realisation.Sacsindustriels main .visuel iframe {width:100%; height:375px; margin-top:75px;}
-#page.realisation.Innotag main .visuel iframe {width:100%; height:625px; margin-top:75px;}
+main#page.apropos .visuel iframe {width:100%; height:400px; margin-top:75px;}
+main#page.innovation .visuel iframe {width:100%; height:500px; margin-top:75px;}
+main#page.animation360-visionneuse .visuel iframe {width:100%; height:600px; margin-top:75px;}
+main#page.animation360-hologramme .visuel iframe {width:100%; height:375px; margin-top:175px;}
+main#page.animation360-dessin-technique .visuel iframe {width:100%; height:250px; margin-top:175px;}
+main#page.realisation.President .visuel iframe {width:100%; height:800px; margin-top:75px;}
+main#page.realisation.Fibrobec .visuel iframe {width:100%; height:700px; margin-top:125px;}
+main#page.realisation.IASO .visuel iframe {width:100%; height:900px; margin-top:75px;}
+main#page.realisation.Sacsindustriels .visuel iframe {width:100%; height:375px; margin-top:75px;}
+main#page.realisation.Innotag .visuel iframe {width:100%; height:625px; margin-top:75px;}
 
-#page.apropos main .description.left {border-right:1px solid #aaa; padding:0px 60px 5px 60px;}
-#page.apropos main .description.centre {border-top:1px solid #aaa; border-bottom:1px solid #aaa; padding:15px 60px 15px 60px; margin-top:20px; margin-bottom:20px;}
-#page.apropos main .description.right {padding:0px 60px 0 60px;}
+main#page.apropos .description.left {border-right:1px solid #aaa; padding:0px 60px 5px 60px;}
+main#page.apropos .description.centre {border-top:1px solid #aaa; border-bottom:1px solid #aaa; padding:15px 60px 15px 60px; margin-top:20px; margin-bottom:20px;}
+main#page.apropos .description.right {padding:0px 60px 0 60px;}
+main#page.partenaires .entete {font-size:15px; line-height:22px; padding-top:20px; padding-right:60px;}
+main#page.partenaires .entete .breadcrumb {list-style: none; background-color: transparent; margin-bottom: 10px; padding:0; font-size:12px;}
+main#page.partenaires .entete h1 {font-size:42px; margin:0 0 30px 0; color:#039; font-family: 'Open Sans Condensed', sans-serif;}
+main#page.partenaires .osmosia {margin-top:10px;}
+main#page.partenaires .description {font-size:15px; line-height:22px; padding-top:0px; border-right:1px solid #aaa; padding-right:60px;}
+main#page.partenaires .visuel .logo {text-align:left; padding:50px 0 0 60px;}
+main#page.partenaires .visuel .logo img {width:250px}
+main#page.joindre {background-image: none}
+main#page.joindre  h2.tagline {font-family: 'Montserrat', sans-serif; text-align:center; color: #039; font-size:24px; padding-bottom:15px; text-transform:uppercase; border-bottom:#F00 1px solid; margin-bottom:40px;}
+main#page.joindre .contact {border-right:#ddd 1px solid; }
+main#page.joindre .coordonnees {padding:15px 0 0 22px; font-size:14px;}
+main#page.joindre .contact iframe {width:100%; height:700px; margin-top:25px;}
+main#page.joindre .rdv iframe {width:100%; height:500px; margin-top:25px;}
+main#page.soumission {background-image: none}
+main#page.soumission  h2.tagline {font-family: 'Montserrat', sans-serif; ext-align:center; color: #039; font-size:24px; padding-bottom:15px; text-transform:uppercase; border-bottom:#F00 1px solid; margin-bottom:40px;}
+main#page.soumission .description {padding-top:20px; border-right:none; padding-right:0px;}
+main#page.soumission .description iframe {width:100%; height:850px; margn-top:25px;}
 
-#page.partenaires main .entete {font-size:15px; line-height:22px; padding-top:20px; padding-right:60px;}
-#page.partenaires main .entete .breadcrumb {list-style: none; background-color: transparent; margin-bottom: 10px; padding:0; font-size:12px;}
-#page.partenaires main .entete h1 {font-size:42px; margin:0 0 30px 0; color:#039; font-family: 'Open Sans Condensed', sans-serif;}
-#page.partenaires main .osmosia {margin-top:10px;}
-#page.partenaires main .description {font-size:15px; line-height:22px; padding-top:0px; border-right:1px solid #aaa; padding-right:60px;}
-#page.partenaires main .visuel .logo {text-align:left; padding:50px 0 0 60px;}
-#page.partenaires main .visuel .logo img {width:250px}
-
-#page.joindre main {background-image: none}
-#page.joindre main  h2.tagline {font-family: 'Montserrat', sans-serif; text-align:center; color: #039; font-size:24px; padding-bottom:15px; text-transform:uppercase; border-bottom:#F00 1px solid; margin-bottom:40px;}
-#page.joindre main .contact {border-right:#ddd 1px solid; }
-#page.joindre main .coordonnees {padding:15px 0 0 22px; font-size:14px;}
-#page.joindre main .contact iframe {width:100%; height:700px; margin-top:25px;}
-#page.joindre main .rdv iframe {width:100%; height:500px; margin-top:25px;}
-
-#page.soumission main {background-image: none}
-#page.soumission main  h2.tagline {font-family: 'Montserrat', sans-serif; text-align:center; color: #039; font-size:24px; padding-bottom:15px; text-transform:uppercase; border-bottom:#F00 1px solid; margin-bottom:40px;}
-#page.soumission main .description {padding-top:20px; border-right:none; padding-right:0px;}
-#page.soumission main .description iframe {width:100%; height:850px; margin-top:25px;}
-
-#page.ghost main {background-image: none}
-#page.ghost main .soumission iframe {width:100%; height:800px; margin-top:25px;}
-#page.ghost main .rdv iframe {width:100%; height:500px; margin-top:25px;}
-#page.ghost main .contact iframe {width:100%; height:700px; margin-top:25px;}
-
-#page.confidentialite main {background-image: none;}
+main#page.ghost {background-image: none}
+main#page.ghost .soumission iframe {width:100%; height:800px; margin-top:25px;}
+main#page.ghost .rdv iframe {width:100%; height:500px; margin-top:25px;}
+main#page.ghost .contact iframe {width:100%; height:700px; margin-top:25px;}
+main#page.confidentialite {background-image: none;}
 #page.confidentialite .description {font-size:13px;}
 
 
 @media (min-width: 768px) and (max-width: 991px)  {
-	#page.partenaires main .entete {padding:20px 30px 0px 30px;}
+	main#page.partenaires .entete {padding:20px 30px 0px 30px;}
 	main#page .description.left {border-right:1px solid #aaa; padding:0px 20px 40px 15px;}
 	main#page .description.right {padding:0px 15px 0 20px;}
-	#page.partenaires main .description .logo {padding-bottom:10px;}
-	#page.partenaires main .description .logo img { width:175px;}
-	#page.joindre main .contact {border-right:none; }
+	main#page.partenaires .description .logo {padding-bottom:10px;}
+	main#page.partenaires .description .logo img { width:175px;}
+	main#page.joindre .contact {border-right:none; }
 }
 
 @media (max-width: 767px) {
@@ -779,27 +780,27 @@ main#page .galerie ul li.preview a:hover .glyphicon {color:#fff; opacity: 0.9;}
 	main#page .galerie ul li.preview a .glyphicon {top:34px; left:34px; font-size:45px;}
 	main#page .CTA-bottom {margin-top:25px; text-align:center;}
 
-	#page.produit-photos-unitaires main .visuel img {width:200px; margin:20px 0;}
-	#page.produit-photos-haute-vitesse main .visuel img {width:250px; margin:20px 0;}
+	main#page.produit-photos-unitaires .visuel img {width:200px; margin:20px 0;}
+	main#page.produit-photos-haute-vitesse .visuel img {width:250px; margin:20px 0;}
 	
-	#page.apropos main .description {padding:30px 30px 25px 30px;}
-	#page.apropos main .description h4 {margin:0 0 0 0;}
-	#page.apropos main .description.left {border-right:none; padding:0 30px;}
-	#page.apropos main .description.centre {padding:0 30px;}
-	#page.apropos main .description.centre {border-top:none; border-bottom:none; padding:0 30px;; margin-top:0px; margin-bottom:0px;}
-	#page.apropos main .description.right {padding:0 30px;}
-	#page.apropos main .description .bloc h2 {line-height:21px; margin-top:5px; margin-bottom:10px;}
+	 main#page.apropos .description {padding:30px 30px 25px 30px;}
+	 main#page.apropos .description h4 {margin:0 0 0 0;}
+	 main#page.apropos .description.left {border-right:none; padding:0 30px;}
+	 main#page.apropos .description.centre {padding:0 30px;}
+	 main#page.apropos .description.centre {border-top:none; border-bottom:none; padding:0 30px;; margin-top:0px; margin-bottom:0px;}
+	 main#page.apropos .description.right {padding:0 30px;}
+	 main#page.apropos .description .bloc h2 {line-height:21px; margin-top:5px; margin-bottom:10px;}
 
-	#page.partenaires main .entete {padding:20px 30px 0px 30px;}
-	#page.partenaires main .description {border-right: none; padding:40px 30px 0px 30px;}
-	#page.partenaires main .description .logo {padding-bottom:10px;}
-	#page.partenaires main .description .logo img { width:175px;}
-	#page.joindre main .contact {border-right:none;}
-	#page.joindre main .coordonnees {padding:0px 0 15px 22px;}
-	#page.joindre main .rdv {margin-top:10px;}
-	#page.soumission main .description {border-right: none; padding:0;}
-	#page.soumission main  h2.tagline {font-size:24px; padding-bottom:15px; border-bottom:#F00 1px solid; margin-bottom:10px;}
-	#page.soumission main .description iframe {width:100%; margin-top:15px;}
+	 main#page.partenaires .entete {padding:20px 30px 0px 30px;}
+	 main#page.partenaires .description {border-right: none; padding:40px 30px 0px 30px;}
+	 main#page.partenaires .description .logo {padding-bottom:10px;}
+	 main#page.partenaires .description .logo img { width:175px;}
+	 main#page.joindre .contact {border-right:none;}
+	 main#page.joindre .coordonnees {padding:0px 0 15px 22px;}
+	 main#page.joindre .rdv {margin-top:10px;}
+	 main#page.soumission .description {border-right: none; padding:0;}
+	 main#page.soumission  h2.tagline {font-size:24px; padding-bottom:15px; border-bottom:#F00 1px solid; margin-bottom:10px;}
+	 main#page.soumission .description iframe {width:100%; margin-top:15px;}
 
 }
 
@@ -816,249 +817,249 @@ main#page .galerie ul li.preview a:hover .glyphicon {color:#fff; opacity: 0.9;}
 
 @media (max-width: 767px) {
 	main#homepage  .visionneuse .exemple iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.apropos main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.innovation main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.animation360-visionneuse main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.animation360-hologramme main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.animation360-dessin-technique main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.realisation.President main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.realisation.Fibrobec main .visuel iframe {width:100%; margin-top:0px;  margin-bottom:0px;}
-	#page.realisation.IASO main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.realisation.Innotag main .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
-	#page.joindre main .contact iframe {width:100%; margin-top:0px; }
-	#page.joindre main .rdv iframe {width:100%; margin-top:0px; }
-	#page.soumission main .description iframe {width:100%; margin-top:15px; }
+	main#page.apropos .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.innovation .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.animation360-visionneuse .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.animation360-hologramme .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.animation360-dessin-technique .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.realisation.President .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.realisation.Fibrobec .visuel iframe {width:100%; margin-top:0px;  margin-bottom:0px;}
+	main#page.realisation.IASO .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.realisation.Innotag .visuel iframe {width:100%; margin-top:0px; margin-bottom:0px;}
+	main#page.joindre .contact iframe {width:100%; margin-top:0px; }
+	main#page.joindre .rdv iframe {width:100%; margin-top:0px; }
+	main#page.soumission .description iframe {width:100%; margin-top:15px; }
 }
 
 @media (min-width: 650px) and (max-width: 767px)  {
 	main#homepage  .visionneuse .exemple iframe {height:540px;}
-	#page.apropos main .visuel iframe {height:445px;}
-	#page.innovation main .visuel iframe {height:645px;}
-	#page.animation360-visionneuse main .visuel iframe {height:700px;}
-	#page.animation360-hologramme main .visuel iframe {height:460px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:295px;}
-	#page.realisation.President main .visuel iframe {height:860px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:685px;}
-	#page.realisation.IASO main .visuel iframe {height:890px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:460px;}
-	#page.realisation.Innotag main .visuel iframe {height:700px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:500px;}
-	#page.soumission main .description iframe {height:870px;}
+	main#page.apropos .visuel iframe {height:445px;}
+	main#page.innovation .visuel iframe {height:645px;}
+	main#page.animation360-visionneuse .visuel iframe {height:700px;}
+	main#page.animation360-hologramme .visuel iframe {height:460px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:295px;}
+	main#page.realisation.President .visuel iframe {height:860px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:685px;}
+	main#page.realisation.IASO .visuel iframe {height:890px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:460px;}
+	main#page.realisation.Innotag .visuel iframe {height:700px;}
+	main#page.joindre .contact iframe {height:745px;}
+	main#page.joindre .rdv iframe {height:500px;}
+	main#page.soumission .description iframe {height:870px;}
 }
 
 @media (min-width: 520px) and (max-width: 649px)  {
 	main#homepage  .visionneuse .exemple iframe {height:510px;}
-	#page.apropos main .visuel iframe {height:390px;}
-	#page.innovation main .visuel iframe {height:590px;}
-	#page.animation360-visionneuse main .visuel iframe {height:620px;}
-	#page.animation360-hologramme main .visuel iframe {height:400px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:250px;}
-	#page.realisation.President main .visuel iframe {height:780px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:620px;}
-	#page.realisation.IASO main .visuel iframe {height:830px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:400px;}
-	#page.realisation.Innotag main .visuel iframe {height:630px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:500px;}
-	#page.soumission main .description iframe {height:870px;}
+	main#page.apropos .visuel iframe {height:390px;}
+	main#page.innovation .visuel iframe {height:590px;}
+	main#page.animation360-visionneuse .visuel iframe {height:620px;}
+	main#page.animation360-hologramme .visuel iframe {height:400px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:250px;}
+	main#page.realisation.President .visuel iframe {height:780px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:620px;}
+	main#page.realisation.IASO .visuel iframe {height:830px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:400px;}
+	main#page.realisation.Innotag .visuel iframe {height:630px;}
+	main#page.joindre .contact iframe {height:745px;}
+	main#page.joindre .rdv iframe {height:500px;}
+	main#page.soumission .description iframe {height:870px;}
 }
 
 @media (min-width: 400px) and (max-width: 519px)  {
 	main#homepage  .visionneuse .exemple iframe {height:450px;}
-	#page.apropos main .visuel iframe {height:320px;}
-	#page.innovation main .visuel iframe {height:520px;}
-	#page.animation360-visionneuse main .visuel iframe {height:550px;}
-	#page.animation360-hologramme main .visuel iframe {height:320px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:200px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:540px;}
-	#page.realisation.IASO main .visuel iframe {height:720px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:320px;}
-	#page.realisation.Innotag main .visuel iframe {height:570px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:500px;}
-	#page.soumission main .description iframe {height:870px;}
+	main#page.apropos .visuel iframe {height:320px;}
+	main#page.innovation .visuel iframe {height:520px;}
+	main#page.animation360-visionneuse .visuel iframe {height:550px;}
+	main#page.animation360-hologramme .visuel iframe {height:320px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:200px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:540px;}
+	main#page.realisation.IASO .visuel iframe {height:720px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:320px;}
+	main#page.realisation.Innotag .visuel iframe {height:570px;}
+	main#page.joindre .contact iframe {height:745px;}
+	main#page.joindre .rdv iframe {height:500px;}
+	main#page.soumission .description iframe {height:870px;}
 }
 
 /* iPhone XR */
 @media (max-width: 414px) and (max-device-height: 896px) {
-	#page.apropos main .visuel iframe {height:250px;}
-	#page.innovation main .visuel iframe {height:480px;}
-	#page.animation360-visionneuse main .visuel iframe {height:480px;}
-	#page.animation360-hologramme main .visuel iframe {height:250px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:490px;}
-	#page.realisation.IASO main .visuel iframe {height:630px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:250px;}
-	#page.realisation.Innotag main .visuel iframe {height:495px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:500px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:250px;}
+	 main#page.innovation .visuel iframe {height:480px;}
+	main#page.animation360-visionneuse .visuel iframe {height:480px;}
+	main#page.animation360-hologramme .visuel iframe {height:250px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:490px;}
+	main#page.realisation.IASO .visuel iframe {height:630px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:250px;}
+	main#page.realisation.Innotag .visuel iframe {height:495px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:500px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* Galaxy Note 9 */
 @media (max-width: 414px) and (max-device-height: 846px) {
-	#page.apropos main .visuel iframe {height:250px;}
-	#page.innovation main .visuel iframe {height:480px;}
-	#page.animation360-visionneuse main .visuel iframe {height:480px;}
-	#page.animation360-hologramme main .visuel iframe {height:250px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:490px;}
-	#page.realisation.IASO main .visuel iframe {height:630px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:250px;}
-	#page.realisation.Innotag main .visuel iframe {height:495px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:500px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:250px;}
+	 main#page.innovation .visuel iframe {height:480px;}
+	main#page.animation360-visionneuse .visuel iframe {height:480px;}
+	main#page.animation360-hologramme .visuel iframe {height:250px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:490px;}
+	main#page.realisation.IASO .visuel iframe {height:630px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:250px;}
+	main#page.realisation.Innotag .visuel iframe {height:495px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:500px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* iPhone 6/7/8 Plus */
 @media (max-width: 414px) and (max-device-height: 736px) {
-	#page.apropos main .visuel iframe {height:250px;}
-	#page.innovation main .visuel iframe {height:480px;}
-	#page.animation360-visionneuse main .visuel iframe {height:480px;}
-	#page.animation360-hologramme main .visuel iframe {height:250px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:490px;}
-	#page.realisation.IASO main .visuel iframe {height:630px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:250px;}
-	#page.realisation.Innotag main .visuel iframe {height:495px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:500px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:250px;}
+	 main#page.innovation .visuel iframe {height:480px;}
+	main#page.animation360-visionneuse .visuel iframe {height:480px;}
+	main#page.animation360-hologramme .visuel iframe {height:250px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:490px;}
+	main#page.realisation.IASO .visuel iframe {height:630px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:250px;}
+	main#page.realisation.Innotag .visuel iframe {height:495px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:500px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* Pixel2 XL */
 @media (max-width: 411px) and (max-device-height: 823px) {
-	#page.apropos main .visuel iframe {height:250px;}
-	#page.innovation main .visuel iframe {height:480px;}
-	#page.animation360-visionneuse main .visuel iframe {height:480px;}
-	#page.animation360-hologramme main .visuel iframe {height:250px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:490px;}
-	#page.realisation.IASO main .visuel iframe {height:630px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:250px;}
-	#page.realisation.Innotag main .visuel iframe {height:495px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:510px;}
-	#page.soumission main .description iframe {height:870px;}
+	main#page.apropos .visuel iframe {height:250px;}
+	main#page.innovation .visuel iframe {height:480px;}
+	main#page.animation360-visionneuse .visuel iframe {height:480px;}
+	main#page.animation360-hologramme .visuel iframe {height:250px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:490px;}
+	main#page.realisation.IASO .visuel iframe {height:630px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:250px;}
+	main#page.realisation.Innotag .visuel iframe {height:495px;}
+	main#page.joindre .contact iframe {height:745px;}
+	main#page.joindre .rdv iframe {height:510px;}
+	main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* Pixel2 */
 @media (max-width: 411px) and (max-device-height: 731px) {
-	#page.apropos main .visuel iframe {height:250px;}
-	#page.innovation main .visuel iframe {height:480px;}
-	#page.animation360-visionneuse main .visuel iframe {height:480px;}
-	#page.animation360-hologramme main .visuel iframe {height:250px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:490px;}
-	#page.realisation.IASO main .visuel iframe {height:630px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:250px;}
-	#page.realisation.Innotag main .visuel iframe {height:495px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:510px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:250px;}
+	 main#page.innovation .visuel iframe {height:480px;}
+	main#page.animation360-visionneuse .visuel iframe {height:480px;}
+	main#page.animation360-hologramme .visuel iframe {height:250px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:490px;}
+	main#page.realisation.IASO .visuel iframe {height:630px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:250px;}
+	main#page.realisation.Innotag .visuel iframe {height:495px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:510px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* iPhone X/XS */
 @media (max-width: 375px) and (max-device-height: 812px) {
-	#page.apropos main .visuel iframe {height:230px;}
-	#page.innovation main .visuel iframe {height:480px;}
-	#page.animation360-visionneuse main .visuel iframe {height:480px;}
-	#page.animation360-hologramme main .visuel iframe {height:230px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:490px;}
-	#page.realisation.IASO main .visuel iframe {height:630px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:230px;}
-	#page.realisation.Innotag main .visuel iframe {height:480px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:510px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:230px;}
+	 main#page.innovation .visuel iframe {height:480px;}
+	main#page.animation360-visionneuse .visuel iframe {height:480px;}
+	main#page.animation360-hologramme .visuel iframe {height:230px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:490px;}
+	main#page.realisation.IASO .visuel iframe {height:630px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:230px;}
+	main#page.realisation.Innotag .visuel iframe {height:480px;}
+	main#page.joindre .contact iframe {height:745px;}
+	main#page.joindre .rdv iframe {height:510px;}
+	main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* iPhone 6/7/8 */
 @media (max-width: 375px) and (max-device-height: 667px) {
-	#page.apropos main .visuel iframe {height:230px;}
-	#page.innovation main .visuel iframe {height:480px;}
-	#page.animation360-visionneuse main .visuel iframe {height:480px;}
-	#page.animation360-hologramme main .visuel iframe {height:230px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:490px;}
-	#page.realisation.IASO main .visuel iframe {height:630px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:230px;}
-	#page.realisation.Innotag main .visuel iframe {height:480px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:510px;}
-	#page.soumission main .description iframe {height:870px;}
+	main#page.apropos .visuel iframe {height:230px;}
+	main#page.innovation .visuel iframe {height:480px;}
+	main#page.animation360-visionneuse .visuel iframe {height:480px;}
+	main#page.animation360-hologramme .visuel iframe {height:230px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:490px;}
+	main#page.realisation.IASO .visuel iframe {height:630px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:230px;}
+	main#page.realisation.Innotag .visuel iframe {height:480px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:510px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* Galaxy S9 */
 @media (max-width: 360px) and (max-device-height: 740px) {
-	#page.apropos main .visuel iframe {height:220px;}
-	#page.innovation main .visuel iframe {height:470px;}
-	#page.animation360-visionneuse main .visuel iframe {height:470px;}
-	#page.animation360-hologramme main .visuel iframe {height:220px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:480px;}
-	#page.realisation.IASO main .visuel iframe {height:620px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:220px;}
-	#page.realisation.Innotag main .visuel iframe {height:470px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:520px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:220px;}
+	 main#page.innovation .visuel iframe {height:470px;}
+	main#page.animation360-visionneuse .visuel iframe {height:470px;}
+	main#page.animation360-hologramme .visuel iframe {height:220px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:480px;}
+	main#page.realisation.IASO .visuel iframe {height:620px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:220px;}
+	main#page.realisation.Innotag .visuel iframe {height:470px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:520px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* Galaxy Note / Galaxy S5 */
 @media (max-width: 360px) and (max-device-height: 640px) {
-	#page.apropos main .visuel iframe {height:220px;}
-	#page.innovation main .visuel iframe {height:470px;}
-	#page.animation360-visionneuse main .visuel iframe {height:470px;}
-	#page.animation360-hologramme main .visuel iframe {height:220px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:170px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:480px;}
-	#page.realisation.IASO main .visuel iframe {height:620px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:220px;}
-	#page.realisation.Innotag main .visuel iframe {height:470px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:520px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:220px;}
+	 main#page.innovation .visuel iframe {height:470px;}
+	main#page.animation360-visionneuse .visuel iframe {height:470px;}
+	main#page.animation360-hologramme .visuel iframe {height:220px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:170px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:480px;}
+	main#page.realisation.IASO .visuel iframe {height:620px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:220px;}
+	main#page.realisation.Innotag .visuel iframe {height:470px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:520px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
 /* iPhone 5/SE */
 @media (max-width: 320px) and (max-device-height: 568px) {
-	#page.apropos main .visuel iframe {height:195px;}
-	#page.innovation main .visuel iframe {height:435px;}
-	#page.animation360-visionneuse main .visuel iframe {height:450px;}
-	#page.animation360-hologramme main .visuel iframe {height:195px;}
-	#page.animation360-dessin-technique main .visuel iframe {height:145px;}
-	#page.realisation.President main .visuel iframe {height:660px;}
-	#page.realisation.Fibrobec main .visuel iframe {height:495px;}
-	#page.realisation.IASO main .visuel iframe {height:595px;}
-	#page.realisation.Sacsindustriels main .visuel iframe {height:195px;}
-	#page.realisation.Innotag main .visuel iframe {height:470px;}
-	#page.joindre main .contact iframe {height:745px;}
-	#page.joindre main .rdv iframe {height:520px;}
-	#page.soumission main .description iframe {height:870px;}
+	 main#page.apropos .visuel iframe {height:195px;}
+	 main#page.innovation .visuel iframe {height:435px;}
+	main#page.animation360-visionneuse .visuel iframe {height:450px;}
+	main#page.animation360-hologramme .visuel iframe {height:195px;}
+	main#page.animation360-dessin-technique .visuel iframe {height:145px;}
+	main#page.realisation.President .visuel iframe {height:660px;}
+	main#page.realisation.Fibrobec .visuel iframe {height:495px;}
+	main#page.realisation.IASO .visuel iframe {height:595px;}
+	main#page.realisation.Sacsindustriels .visuel iframe {height:195px;}
+	main#page.realisation.Innotag .visuel iframe {height:470px;}
+	 main#page.joindre .contact iframe {height:745px;}
+	 main#page.joindre .rdv iframe {height:520px;}
+	 main#page.soumission .description iframe {height:870px;}
 }
 
 
@@ -1074,10 +1075,10 @@ main#page .galerie ul li.preview a:hover .glyphicon {color:#fff; opacity: 0.9;}
 #portfolio nav {background-color:#f2f2f2; border-bottom:#CCC 1px solid; padding:10px 0; margin-top:0;}
 /* #portfolio nav .logo {} */
 #portfolio nav .logo img {width:200px;}
-#portfolio nav .fermeture {font-family: Arial, Helvetica, sans-serif; text-align:right; padding:12px 0 0 0;}
-#portfolio main {margin-top:80px;}
-#portfolio main h2 {font-family: Arial, Helvetica, sans-serif; text-align:center; color: #039; font-size:21px; padding-bottom:10px; border-bottom:#F00 1px solid; margin-top:40px; margin-bottom:5px;}
-/*#portfolio main iframe {} */
+#portfolio nav .fermeture {font-family: Arial, Helvetica, sans-serif; text-align:right; padding:12px 0 0 0 main;}
+#portfolio {margin-top:80px main;}
+#portfolio h2 {font-family: Arial, Helvetica, sans-serif; text-align:center; color: #039; font-size:21px; padding-bottom:10px; border-bottom:#F00 1px solid; margin-top:40px; margin-bottom:5px main;}
+/*#portfolio iframe {} */
 
 #portfolio.alternateur iframe {height:800px;}
 #portfolio.balance-trieuse iframe {height:725px;}
@@ -1105,7 +1106,7 @@ main#page .galerie ul li.preview a:hover .glyphicon {color:#fff; opacity: 0.9;}
 
 @media (max-width: 767px) {
 	#portfolio nav {padding:10px 25px; margin-top:0;}
-	#portfolio main h2 {font-size:17px; padding-bottom:10px; margin-top:20px; margin-bottom:5px;}
+ main	#portfolio h2 {font-size:17px; padding-bottom:10px; margin-top:20px; margin-bottom:5px;}
 }
 
 
@@ -1184,8 +1185,3 @@ footer .bottom img {width:100%;}
 	.modal-header .titre {font-size:18px; padding-left:0px;}
 	.modal-header .titre img {width:40px; margin-right:5px;}
 }
-
-
-
-
-
