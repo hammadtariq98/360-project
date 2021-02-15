@@ -31,7 +31,7 @@
                                         <h4>• Améliorez l’expérience client </h4>
                                         <h4>• Mettez vos produits en valeur</h4>
                                         <h4>• Créez des ambiances conviviales</h4>
-                                        <div class="bouton"><a href="animation360-visionneuse.html" role="button" class="btn btn-slider">Découvrez</a></div>
+                                        <div class="bouton"><router-link to="/animation360-visionneuse" role="button" class="btn btn-slider">Découvrez</router-link></div>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@
                                         <h4>• Créez de la magie</h4>
                                         <h4>• Illustrez l’invisible</h4>
                                         <h4>• Captez l’attention</h4>
-                                        <div class="bouton"><a href="produit-photos-haute-vitesse.html" role="button" class="btn btn-slider">Découvrez</a></div>
+                                        <div class="bouton"><router-link to="/produit-photos-haute-vitesse" role="button" class="btn btn-slider">Découvrez</router-link></div>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
                                         <h4>• Imitez l’expérience en boutique</h4>
                                         <h4>• Récréez le comportement naturel d’achat</h4>
                                         <h4>• Donnez l’impression de toucher l’objet</h4>
-                                        <div class="bouton"><a href="innovation.html" role="button" class="btn btn-slider">Découvrez</a></div>
+                                        <div class="bouton"><router-link to="/innovation" role="button" class="btn btn-slider">Découvrez</router-link></div>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                                     </div>
                                     <h3>Animation 360°</h3>
                                     <div class="bouton">
-                                        <a href="animation360-visionneuse.html" role="button" class="btn btn-outline-dark">Démarquez-vous</a>
+                                        <router-link to="/animation360-visionneuse" role="button" class="btn btn-outline-dark">Démarquez-vous</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@
                                     </div>
                                     <h3>Photos haute vitesse</h3>
                                     <div class="bouton">
-                                        <a href="produit-photos-haute-vitesse.html" role="button" class="btn btn-outline-dark">Innovez</a>
+                                        <router-link to="/produit-photos-haute-vitesse" role="button" class="btn btn-outline-dark">Innovez</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                                     </div>
                                     <h3>Hologramme 360°</h3>
                                     <div class="bouton">
-                                        <a href="animation360-hologramme.html" role="button" class="btn btn-outline-dark">Propulsez vos produits</a>
+                                        <router-link to="/animation360-hologramme" role="button" class="btn btn-outline-dark">Propulsez vos produits</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@
                             <li>Personnalisable selon les caractéristiques du produit </li>
                         </ul>
                     </div>
-                    <div class="bouton"><a href="animation360-visionneuse.html" role="button" class="btn btn-slider">Voir détails</a></div>
+                    <div class="bouton"><router-link to="/animation360-visionneuse" role="button" class="btn btn-slider">Voir détails</router-link></div>
                 </div>
                 <div class="col-sm-6 exemple desktop-nav">
                     <iframe src="" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
@@ -184,7 +184,7 @@
                                 <li>Nous avons conçu notre visionneuse 360° pour qu’elle s’adapte sur le mobile.</li>
                                 <li>Nous avons construit des équipements pour photographier des petits produits jusqu’aux grandes machineries.</li>
                                 </ul>
-                                <div class="bouton mobo-nav"><a href="apropos.html" role="button" class="btn btn-slider">En savoir plus</a></div>
+                                <div class="bouton mobo-nav"><router-link to="/apropos" role="button" class="btn btn-slider">En savoir plus</router-link></div>
                             </div>
                             <div class="col-sm-6 detail">
                                 <h2 class="tagline petit">Pourquoi Révolutionnez&nbsp;?</h2>
@@ -194,15 +194,15 @@
                                 <li>Nous offrons un service personnalisé et clés en main tout au long du projet.</li>
                                 <li>Nous collaborons avec vous dans notre studio ou à l’endroit de votre choix.</li>
                                 </ul>
-                                <div class="bouton mobo-nav"><a href="nous-joindre.html" role="button" class="btn btn-slider">Prendre RDV</a></div>
+                                <div class="bouton mobo-nav"><router-link to="/nous-joindre" role="button" class="btn btn-slider">Prendre RDV</router-link></div>
                             </div>
                         </div>
                         <div class="row desktop-nav">
                             <div class="col-sm-6">
-                                <div class="bouton"><a href="apropos.html" role="button" class="btn btn-slider">En savoir plus</a></div>
+                                <div class="bouton"><router-link to="/apropos" role="button" class="btn btn-slider">En savoir plus</router-link></div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="bouton"><a href="nous-joindre.html" role="button" class="btn btn-slider">Prendre RDV</a></div>
+                                <div class="bouton"><router-link to="/nous-joindre" role="button" class="btn btn-slider">Prendre RDV</router-link></div>
                             </div>
                         </div>
                     </div>

@@ -36,8 +36,8 @@
                                     <div class="dropdown">
                                         <a href="#" class="dropdown-toggle" id="dropdownProduit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Photos produit <span class="caret"></span></a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownProduit">
-                                            <li><a href="produit-photos-unitaires-serie.html">Photos unitaires ou en série</a></li>
-                                            <li><a href="produit-photos-haute-vitesse.html">Photos haute vitesse</a></li>
+                                            <li><router-link to="/produit-photos-unitaires-serie">Photos unitaires ou en série</router-link></li>
+                                            <li><router-link to="/produit-photos-haute-vitesse">Photos haute vitesse</router-link></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -46,11 +46,11 @@
                                     <div class="dropdown">
                                         <a href="#" class="dropdown-toggle" id="dropdownRealisation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Réalisations <span class="caret"></span></a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownRealisation">
-                                            <li><a href="realisation-President.html">Portes et fenêtres Président</a></li>
-                                            <li><a href="realisation-Fibrobec.html">Fibrobec</a></li>
-                                            <li><a href="realisation-IASO.html">IASO</a></li>
-                                            <li><a href="realisation-Sacsindustriels.html">Sacs industriels inc.</a></li>
-                                            <li><a href="realisation-Innotag.html">Distributions Innotag</a></li>
+                                            <li><router-link to="/realisation-President">Portes et fenêtres Président</router-link></li>
+                                            <li><router-link to="/realisation-Fibrobec">Fibrobec</router-link></li>
+                                            <li><router-link to="/realisation-IASO">IASO</router-link></li>
+                                            <li><router-link to="/realisation-Sacsindustriels">Sacs industriels inc.</router-link></li>
+                                            <li><router-link to="/realisation-Innotag">Distributions Innotag</router-link></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -111,17 +111,17 @@
                                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                             <ul>
                                                 <li><router-link to="#">Photos unitaires ou en série</router-link></li>
-                                                <li><a href="produit-photos-haute-vitesse.html">Photos haute vitesse</a></li>
+                                                <li><router-link to="/produit-photos-haute-vitesse">Photos haute vitesse</router-link></li>
                                             </ul>
                                         </div>
                                         <div id="headingThree" class="title" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Réalisations<span class="caret"></span></div>
                                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" >
                                             <ul>
-                                                <li><a href="realisation-President.html">Portes et fenêtres Président</a></li>
-                                                <li><a href="realisation-Fibrobec.html">Fibrobec</a></li>
-                                                <li><a href="realisation-IASO.html">IASO</a></li>
-                                                <li><a href="realisation-Sacsindustriels.html">Sacs industriels inc.</a></li>
-                                                <li><a href="realisation-Innotag.html">Distributions Innotag</a></li>
+                                                <li><router-link to="/realisation-President">Portes et fenêtres Président</router-link></li>
+                                                <li><router-link to="/realisation-Fibrobec">Fibrobec</router-link></li>
+                                                <li><router-link to="/realisation-IASO">IASO</router-link></li>
+                                                <li><router-link to="/realisation-Sacsindustriels">Sacs industriels inc.</router-link></li>
+                                                <li><router-link to="/realisation-Innotag">Distributions Innotag</router-link></li>
                                             </ul>
                                         </div>
                                     </div>

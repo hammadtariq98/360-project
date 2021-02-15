@@ -42,7 +42,7 @@
                         <div class="details">À partir d’une animation 360° nous préparons un fichier pour le projeter avec une hélice holographique qui crée l’illusion d’un produit 3D qui flotte et bouge dans les airs.</div>
                     </div>
                     <div class="CTA">
-                        <a href="nous-joindre.html" class="btn btn-primary">Prendre rendez-vous</a>
+                        <router-link to="/nous-joindre" class="btn btn-primary">Prendre rendez-vous</router-link>
                     </div>
                 </div>
                 <div class="col-sm-6 visuel desktop-only desktop-nav">

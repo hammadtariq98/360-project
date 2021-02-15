@@ -11,21 +11,21 @@
         <div class="row menu-footer">
             <div class="col-md-3">
                 <h4>Révolutionnez</h4>
-                <div><a href="apropos.html">À propos</a></div>
-                <div><a href="innovation.html">Innovation</a></div>
-                <div><a href="partenaires.html">Partenaires</a></div>
-                <div><a href="politique-confidentialite.html">Politique de confidentialité</a></div>
+                <div><router-link to="/apropos">À propos</router-link></div>
+                <div><router-link to="/innovation">Innovation</router-link></div>
+                <div><router-link to="/partenaires">Partenaires</router-link></div>
+                <div><router-link to="/politique-confidentialite">Politique de confidentialité</router-link></div>
             </div>
             <div class="col-md-3">
                 <h4>Animation 360</h4>
-                <div><a href="animation360-visionneuse.html">Notre visionneuse</a></div>
-                <div><a href="animation360-hologramme.html">Hologramme 360</a></div>
-                <div><a href="animation360-dessin-technique.html">Dessin technique 360</a></div>
+                <div><router-link to="/animation360-visionneuse">Notre visionneuse</router-link></div>
+                <div><router-link to="/animation360-hologramme">Hologramme 360</router-link></div>
+                <div><router-link to="/animation360-dessin-technique">Dessin technique 360</router-link></div>
             </div>
             <div class="col-md-3">
                 <h4>Photos produit</h4>
-                <div><a href="produit-photos-unitaires-serie.html">Photos unitaires ou en série</a></div>
-                <div><a href="produit-photos-haute-vitesse.html">Photos haute vitesse</a></div>
+                <div><router-link to="/produit-photos-unitaires-serie">Photos unitaires ou en série</router-link></div>
+                <div><router-link to="/produit-photos-haute-vitesse">Photos haute vitesse</router-link></div>
             </div>
             <div class="col-md-3">
                 <h4>Réalisations</h4>

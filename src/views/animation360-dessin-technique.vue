@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="CTA">
-                        <a href="nous-joindre.html" class="btn btn-primary">Prendre rendez-vous</a>
+                        <router-link to="/nous-joindre" class="btn btn-primary">Prendre rendez-vous</router-link>
                     </div>
                 </div>
                 <div class="col-sm-6 visuel desktop-only  desktop-nav">

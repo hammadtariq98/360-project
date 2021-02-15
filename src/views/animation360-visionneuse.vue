@@ -38,7 +38,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="CTA"><a href="nous-joindre.html" class="btn btn-primary">Renseignez-vous</a></div>
+                    <div class="CTA"><router-link to="/nous-joindre" class="btn btn-primary">Renseignez-vous</router-link></div>
                 </div>
                 <div class="col-sm-6 visuel desktop-only hidden-xs">
                     <iframe src="assets/visionneuse/nutriSow/index.html" scrolling="no" frameborder="0"></iframe>
@@ -110,7 +110,7 @@
         <section class="container CTA-bottom">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="CTA"><a href="nous-joindre.html" class="btn btn-primary">Prendre rendez-vous</a></div>
+                    <div class="CTA"><router-link to="/nous-joindre" class="btn btn-primary">Prendre rendez-vous</router-link></div>
                 </div>
             </div>
         </section>
