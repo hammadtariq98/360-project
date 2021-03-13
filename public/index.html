@@ -1,28 +1,323 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet"/>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Bootstrap Script -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <link href="/magic360/magic360.css" rel="stylesheet" type="text/css" media="screen"/>
+  <script src="/magic360/magic360.js" type="text/javascript"></script>
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+    <style type="text/css">
+      .cfg-btn {
+          color: #000;
+          border: 0;
+          box-shadow: 0 0 1px 0px rgba(0,0,0,0.3);
+          outline:0;
+          cursor: pointer;
+          width: 200px;
+          padding: 10px;
+          font-size: 1em;
+
+      }
+      .cfg-btn:hover:not([disabled]) {
+          background-color: #fff;
+      }
+      .api-controls {
+          text-align: center;
+          display: flex;
+          justify-content: center;
+      }
+      .api-controls button,
+      .api-controls button:active,
+      .api-controls button:focus {
+           width: 50px;
+           white-space: nowrap;
+      }
+      .api-controls .sep { content: ''; display: table; }
+      .api-controls .sep-sm { content: ''; display: none; }
+  
+      .app-figure {
+          width: 100% !important;
+          position: relative;
+          text-align: center;
+      }
+      .selectors { margin-top: 10px; }
+  
+      .app-code-sample {
+          max-width: 80%;
+          margin: 80px auto 0;
+          text-align: center;
+          position: relative;
+      }
+      .app-code-sample input[type="radio"] {
+          display: none;
+      }
+      .app-code-sample label {
+          display: inline-block;
+          padding: 2px 12px;
+          margin: 0;
+          font-size: .8em;
+          text-decoration: none;
+          cursor: pointer;
+          color: #666;
+          border: 1px solid rgba(136, 136, 136, 0.5);
+          background-color: transparent;
+      }
+      .app-code-sample label:hover {
+          color: #fff;
+          background-color: rgb(253, 154, 30);
+          border-color: rgb(253, 154, 30);
+      }
+      .app-code-sample input[type="radio"]:checked+label {
+          color: #fff;
+          background-color: rgb(110, 110, 110) !important;
+          border-color: rgba(110, 110, 110, 0.7) !important;
+      }
+      .app-code-sample label:first-of-type {
+          border-radius: 4px 0 0 4px;
+          border-right-color: transparent;
+      }
+      .app-code-sample label:last-of-type {
+          border-radius: 0 4px 4px 0;
+          border-left-color: transparent;
+      }
+  
+      .app-code-sample .app-code-holder {
+          padding: 0;
+          position: relative;
+          border: 1px solid #eee;
+          border-radius: 0px;
+          background-color: #fafafa;
+          margin: 15px 0;
+      }
+      .app-code-sample .app-code-holder > div {
+          display: none;
+      }
+      .app-code-sample .app-code-holder pre {
+          text-align: left;
+          white-space: pre-line;
+          border: 0px solid #eee;
+          border-radius: 0px;
+          background-color: transparent;
+          padding: 25px 50px 25px 25px;
+          margin: 0;
+          min-height: 25px;
+      }
+      .app-code-sample input[type="radio"]:nth-of-type(1):checked ~ .app-code-holder > div:nth-of-type(1) {
+          display: block;
+      }
+      .app-code-sample input[type="radio"]:nth-of-type(2):checked ~ .app-code-holder > div:nth-of-type(2) {
+          display: block;
+      }
+  
+      .app-code-sample .app-code-holder .cfg-btn-copy {
+          display: none;
+          z-index: -1;
+          position: absolute;
+          top:10px; right: 10px;
+          width: 44px;
+          font-size: .65em;
+          white-space: nowrap;
+          margin: 0;
+          padding: 4px;
+      }
+      .mobile-magic .app-code-sample .cfg-btn-copy { display: none; }
+      #code-to-copy { position: absolute; width: 0; height: 0; top: -10000px; }
+      .lt-ie9-magic .app-code-sample { display: none; }
+      .preview { width: 70%; float: left; }
+      @media (min-width: 0px) {
+          .preview { width: 100%; float: none; }
+      }
+      @media (min-width: 1024px) {
+          .preview { width: calc(100% - 340px); }
+      }
+      @media screen and (max-width: 1023px) {
+          .app-figure { width: 98% !important; margin: 50px 0; padding: 0; }
+          .app-code-sample { display: none; }
+          .wizard-settings { width: 100%; }
+      }
+      @media screen and (max-width: 600px) {
+          .api-controls button,
+          .api-controls button:active,
+          .api-controls button:focus {
+              width: 96px;
+          }
+      }
+      @media screen and (min-width: 435px) and (max-width: 767px) {
+          .api-controls .sep { display: none; }
+          .api-controls .sep-sm { display: table; }
+      }
+      @media screen and (min-width: 768px) {
+          .api-controls .sep { display: table; }
+          .api-controls .sep-sm { display: none; }
+      }
+      @media screen and (min-width: 1600px) {
+          .preview { padding: 10px 160px; }
+      }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script>
+    var Magic360Options = {};
+    Magic360Options = {
+        onready: function () {
+            console.log('onready', arguments[0]);
+        },
+        onstart: function () {
+            console.log('onstart', arguments[0]);
+        },
+        onstop: function () {
+            console.log('onstop', arguments[0]);
+        },
+        onzoomin: function () {
+            console.log('onzoomin', arguments[0]);
+        },
+        onzoomout: function () {
+            console.log('onzoomout', arguments[0]);
+        },
+        onspin: function () {
+            console.log('onspin', arguments[0]);
+        },
+    };
+
+    function isDefaultOption(o) {
+        return magicJS.$A(magicJS.$(o).byTag('option')).filter(function(opt){
+            return opt.selected && opt.defaultSelected;
+        }).length > 0;
+    }
+
+    function toOptionValue(v) {
+        if ( /^(true|false)$/.test(v) ) {
+            return 'true' === v;
+        }
+        if ( /^[0-9]{1,}$/i.test(v) ) {
+            return parseInt(v,10);
+        }
+        return v;
+    }
+
+    function makeOptions(optType) {
+        var  value = null, isDefault = true, newParams = Array(), newParamsS = '', options = {};
+        magicJS.$(magicJS.$A(magicJS.$(optType).getElementsByTagName("INPUT"))
+            .concat(magicJS.$A(magicJS.$(optType).getElementsByTagName('SELECT'))))
+            .forEach(function(param){
+                value = ('checkbox'==param.type) ? param.checked.toString() : param.value;
+
+                isDefault = ('checkbox'==param.type) ? value == param.defaultChecked.toString() :
+                    ('SELECT'==param.tagName) ? isDefaultOption(param) : value == param.defaultValue;
+
+                if ( null !== value && !isDefault) {
+                    options[param.name] = toOptionValue(value);
+                }
+        });
+        return options;
+    }
+
+    function updateScriptCode() {
+        var code = '&lt;script&gt;\nvar Magic360Options = ';
+        code += JSON.stringify(Magic360Options, null, 2).replace(/\"(\w+)\":/g,"$1:")+';';
+        code += '\n&lt;/script&gt;';
+
+        magicJS.$('app-code-sample-script').changeContent(code);
+    }
+
+    function updateInlineCode() {
+        var code = '&lt;div class="Magic360" data-options="';
+        code += JSON.stringify(Magic360Options).replace(/\"([-\w]+)\":(?:\"([^"]+)\"|([^,}]+))(,)?/g, "$1: $2$3; ").replace(/^\{(.*)\}$/,"$1").replace(/\s*$/,'');
+        code += '"&gt;';
+
+        magicJS.$('app-code-sample-inline').changeContent(code);
+    }
+
+    function applySettings() {
+        Magic360.stop('spin-1');
+        Magic360Options = makeOptions('params');
+        Magic360.start('spin-1');
+        updateScriptCode();
+        updateInlineCode();
+        try {
+            prettyPrint();
+        } catch(e) {}
+    }
+
+    function copyToClipboard(src) {
+        var
+            copyNode,
+            range, success;
+
+        if (!isCopySupported()) {
+            disableCopy();
+            return;
+        }
+        copyNode = document.getElementById('code-to-copy');
+        copyNode.innerHTML = document.getElementById(src).innerHTML;
+
+        range = document.createRange();
+        range.selectNode(copyNode);
+        window.getSelection().addRange(range);
+
+        try {
+            success = document.execCommand('copy');
+        } catch(err) {
+            success = false;
+        }
+        window.getSelection().removeAllRanges();
+        if (!success) {
+            disableCopy();
+        } else {
+            new magicJS.Message('Settings code copied to clipboard.', 3000,
+                document.querySelector('.app-code-holder'), 'copy-msg');
+        }
+    }
+
+    function disableCopy() {
+        magicJS.$A(document.querySelectorAll('.cfg-btn-copy')).forEach(function(node) {
+            node.disabled = true;
+        });
+        new magicJS.Message('Sorry, cannot copy settings code to clipboard. Please select and copy code manually.', 3000,
+            document.querySelector('.app-code-holder'), 'copy-msg copy-msg-failed');
+    }
+
+    function isCopySupported() {
+        if ( !window.getSelection || !document.createRange || !document.queryCommandSupported ) { return false; }
+        return document.queryCommandSupported('copy');
+    }
+</script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.min.js"></script>
+<script>try { prettyPrint(); } catch(e) {}</script>
+</body>
+
 </html>
