@@ -1,0 +1,114 @@
+{
+"fr": {
+		"titleText": "Veston beige décontracté.",
+		"frames": {
+            "000-012": "1- Déconstruit donc sans doublure intérieure, qui donne l'impression d'une deuxième peau. confort assuré.",
+            "013-024": "2- Composition: laine, coton et soie.",
+			"025-037": "3- Moulin de réputation: Guabello.",
+			"038-049": "3- Pensé pour l'été."
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "514-730-8560",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": "<a href='https://bo-bonhomme.com/' target='_blank'>Bobonhomme,</a>  c'est un accompagnement personnalisé où vous avez accès à une styliste qui vous guide et vous accompagne dans vos choix afin de mettre votre silhouette en valeur.<br>Prenez <a href='https://bo-bonhomme.com/prendre-rendez-vous/' target='_blank'>rendez-vous</a>",
+		"lnkContact": "https://bo-bonhomme.com/nous-joindre/",
+		"lnkCart": " "
+	},
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "60px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+    "controlBar": {
+        "lnkSpriteZoom": [
+            {
+                "range": "010-049",
+                "data": ""
+            }
+        ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "slider-arrow",
+            "flag_thumbnail": false,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": false,
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "right",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": false,
+            "flag_lnkLink": "none",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "frameTime": 160,
+    "reverse": false,
+    "animate": false,
+    	"div": {
+        "lang": "fr",
+        "frame": "0,49",
+        "countdown": "1"
+	}
+}

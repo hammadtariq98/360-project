@@ -1,0 +1,120 @@
+{
+"fr": {
+		"titleText": "Bonnet en Bambou / L'excentrique",
+		"frames": {
+			"000-008": "1- Bonnet de chimio faits de fibres naturelles et écologiques,dessinés et conçus au Québec.",
+			"009-016": "2- Ce bonnet une pièce gris, rouge et noir s’adapte à toutes les têtes et il peut être utilisé pour la perte de cheveux due aux traitements de chimiothérapie , ou pour la pratique d’activités sportives.",
+			"0017-024": "3- Il se porte la toute la journée sans brimer votre féminité, au contraire il s’agencera à votre style vestimentaire.",
+			"025-032": "4- Ce bonnet de bambou est doux et léger, plus long sur la nuque il permet de mieux conserver la chaleur au besoin et de cacher la partie dégarnie de cheveux. ",
+			"033-040": "5- Il est composé à 95 % de viscose de bambou et à 5 % de spandex ou d’élastane. De plus, il est fabriqué dans un éco-village. C’est du 100 % québécois!"
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": "450-338-9900",
+		"lnkMail": "info@boutiqueiaso.com?Subject=Demande d'information",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+        "lnkInfo": "<center><img src='{basePath}/details/Manon.jpg' alt='Manon Beauregard'  width='50%' height='50%'><br><b>Par sa persévérance Manon a vaincu son cancer</center></br><br>À la suite de cette bataille, dont elle sort vainqueur.<br><a href='https://www.boutiqueiaso.com/manon-beauregard-perte-de-cheveux' target='_blank'>Manon</a> vit un nouveau départ et celui-ci réorientera toute sa vie.<br>Elle décide d’aider les personnes atteintes de cancer en suivant une formation en trichologie, la science spécialisée dans l’étude des cheveux. Sa mission de vie qui se concrétise dans <a href='https://www.boutiqueiaso.com/'target='_blank'>IASO</a>",
+		"lnkContact": "https://www.boutiqueiaso.com/contact",
+		"lnkCart": "https://boutiqueiaso.ca/boutique/fr/bonnets-de-chimio/bonnet-en-bambou-l-excentrique-p222c172 "
+	},
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "60px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+   "controlBar": {
+		"lnkSpriteZoom": [
+			{
+				"range": "000-040",
+				"data": "/details/bonnet-rouge_D_00_00.jpg "
+            }
+        ]
+	},
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "slider-arrow",
+            "flag_thumbnail": true,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": false,
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+
+            "flag_lnkInfo": "right",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": true,
+
+            "flag_lnkLink": "false",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": true
+        }
+    },
+    "frameTime": 120,
+    "reverse": false,
+    "animate": true,
+    "div": {
+        "lang": "fr",
+        "frame": "0,38",
+        "countdown": "1"
+	}
+}

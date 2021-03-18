@@ -1,0 +1,140 @@
+{
+"fr": {
+    "titleText": "Assemblage de la Serre en folie",
+    "frames": {
+      "000-000": "1 -Voici le résultat final.",
+      "001-001": "2- Vérifier l’ensemble des pièces à assembler.",
+      "002-005": "3- Viser les 4 cornières en acier galvanisé à la base selon l’ordre inscrite sur les cornières et la base – 8 vis.",
+      "006-007": "4- Viser les 4 cornières au cadre supérieur – 4 vis.",
+      "008-017": "5- Placer le panneau de croissance # 1 sur le dessus du cadre supérieur et les panneaux # 2 et # 3 à la hauteur désirée , orienter les fils du même coté de l’ouverture dans la base.",
+      "018-019": "6- Fixer les câbles à l’aide des pinces relieuses  à la cornière adjacente à l’ouverture dans la base,puis brancher les câbles aux connecteurs à la base.",
+      "020-020": "7- Viser le coté muni de 3 ventilateurs, orienter tel qu’indiquer sur le coté – 4 vis, brancher au connecteur dédié dans la base.",
+      "021-021": "8- Fixer à l’aide des velcros  le film réfléchissant à l’arrière de la serre.",
+      "022-023": "9- Installer la housse en assurant que chaque ventilateur soit dégagé. Programmer la minuterie et brancher à une prise murale de 120 volts et à la base."
+	},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "450-445-6015",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": " ",
+		"lnkInfo": " ",
+		"lnkContact": "https://www.serreenfolie.com/contactez-nous",
+		"lnkCart": " "
+	},
+
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "60px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+    "controlBar": {
+       "lnkSpriteZoom": [
+			{
+				"range": "002-005",
+				"data": "/details/serre_ass_D_00_01.jpg"
+			},
+			{
+				"range": "006-007",
+				"data": "/details/serre_ass_D_00_02.jpg"
+			},
+			{
+				"range": "008-008",
+				"data": "/details/serre_ass_D_00_04.jpg"
+			},
+			{
+				"range": "009-019",
+				"data": "/details/serre_ass_D_00_03.jpg"
+			},
+			{
+				"range": "020-020",
+				"data": "/details/serre_ass_D_00_05.jpg"
+			},
+						{
+              "range": "020-023",
+              "data": "/details/serre_ass_D_00_00.jpg"
+            }
+        ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "slider-arrow",
+            "flag_thumbnail": true,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": "false",
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": false,
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": false,
+            "flag_lnkMail": false,
+            "flag_lnkLink": "false",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "frameTime": 80,
+    "reverse": false,
+    "animate": false,
+    	"div": {
+        "lang": "fr",
+        "frame": "0,23",
+        "countdown": "1"
+	}
+}

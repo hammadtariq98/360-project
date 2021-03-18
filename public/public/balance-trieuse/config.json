@@ -1,0 +1,138 @@
+{
+   "en": {
+		"titleText": "Pig Sorter for fattening pigs",
+		"frames": {
+			"000-013": "1- Self-opening directed exit towards the correct group, ensuring the accurate weight sorting of your pigs.",
+			"014-027": "2- One-way entry with automatic closure.",
+			"028-040": "3- Autonomous control over weighing and management via Genius’ iTouch. ",
+			"041-055": "4- Data and reports available via FarmQuest (Free of charge)."
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Specificities",
+		"lblTechSpecification": "Communication",
+		"lnkPhone": "1 450 641-4810",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://contact.monitrol.com/en/pig-sorter-for-feeder-pigs/",
+		"lnkInfo": "<b>Advantages :</b><br>• Self-opening directed exit towards the correct group, ensuring the accurate weight sorting of your pigs.<br>• One-way entry with automatic closure.<br>• Autonomous control over weighing and management via Genius’ iTouch.<br>• Data and reports available via FarmQuest (Free of charge).",
+		"lnkContact": "https://monitrol.com/en/contact/",
+		"lnkCart": " "
+	},
+	"fr": {
+		"titleText": "Balance trieuse pour porcs d’engraissement",
+		"frames": {
+			"000-013": "1- Sortie dirigée à ouverture automatique vers le bon groupe pour un triage dans la bonne catégorie de poids.",
+			"014-027": "2- Entrée unidirectionnelle avec fermeture automatique. ",
+			"028-040": "3- Contrôle autonome sur la balance et gestion via iTouch de Genius.",
+			"041-055": "4- Données et rapports accessibles via <b>FarmQuest </b>(Sans Frais)."
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Spécificités",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "1 450 641-4810",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://contact.monitrol.com/balance-trieuse/",
+		"lnkInfo": "<b> Les avantages :</b><br>• Diminue le coût de la main-d’œuvre<br>• Réduit les risques de blessure pour l'éleveur et les animaux<br>• Garantie l'uniformité à la sélection<br>• Cible le bon poids de sortie<br>• Respecte le bien-être de l'animal en diminuant la compétitivité et le stress",
+		"lnkContact": "https://monitrol.com/nous-joindre/",
+		"lnkCart": " "
+	},
+
+	"styles": {
+		"titleText": {
+			"fontFamily": "Futura LT Book",
+			"color": "#000",
+			"fontSize": "21px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "center",
+			"marginBottom": "1px",
+			"padding": "10px"
+		},
+		"frames": {
+			"padding": "1px 1px 1px",
+			"fontFamily": "Futura LT Book",
+			"color": "#000",
+			"fontSize": "16px",
+			"fontWeight": "normal",
+			"margin": "0",
+			"textAlign": "justify",
+			"marginBottom": "1px",
+			"overflowY": "auto",
+			"height": "40px"
+		},
+       "separator": {
+			"fontFamily": "Futura LT Book",
+			"color": "#999999",
+			"fontSize": "14px"
+		},
+		   "lnkInfo": {
+            "fontFamily": "Futura LT Book",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+    "controlBar": {
+        "lnkSpriteZoom": [
+			{
+				"range": "00-056",
+				"data": "/details/balance-trieuse_D_00_01.jpg "
+            }
+        ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "bar",
+            "flag_thumbnail": true,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": false,
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "left",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": false,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": false ,
+            "flag_lnkLink": "right",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "langButton": true,
+    "frameTime": 120,
+    "reverse": false,
+	"animate": true,
+	"div": {
+        "lang": "fr,en",
+        "frame": "0,55",
+        "countdown": "1"
+	}
+}

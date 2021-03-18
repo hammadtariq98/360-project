@@ -1,0 +1,117 @@
+{
+"fr": {
+		"titleText": "SpaceKap WILD",
+		"frames": {
+			"000-007": "1- Le SpaceKap WILD est le modèle idéal pour tous ceux qui recherchent des caractéristiques similaires à une fourgonnette traditionnelle.",
+			"008-014": "2- Avec une hauteur intérieure de 53 po, il est assez grand pour pouvoir circuler à l’intérieur, et présente l’avantage d’avoir des portes latérales pleine longueur permettant un accès depuis l’extérieur.",
+			"015-022": "3- Ajoutez des tablettes de rangement en option et maximisez votre espace et sécurisez vos équipements",
+			"023-030": "4- L’ouverture étonnante de la porte latérale 24 x 84 po est la plus large dans l’industrie et élimine toute zone morte dans la partie cargo de votre véhicule.",
+			"031-037": "5- Le WILD est fait pour durer en utilisant de la fibre de verre de marque Owen Corning. Le composite rend les SpaceKap légers et résistants, et notre garantie à vie contre les défauts de fabrication en est la preuve.",
+			"038-045": "6- Faites un choix écoresponsable avec ce modèle, sa conception légère et aérodynamique permet une économie de carburant et d’argent."
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Spécificités",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "1-800-363-0655",
+		"lnkMail": " ",
+		"lnkDownload": "https://www.fibrobec.com/download/brochure-spacekap-2017/?wpdmdl=3398",
+		"lnkVideo": "",
+		"lnkAudio": " ",
+		"lnkDoc": "",
+		"lnkLink": "https://fibrobec.com/modele-wild/",
+        "lnkInfo": "<p>Le modèle <b>WILD</b> jumelé à une camionnette de pleine grandeur offre un confort inégalé pour l’utilisateur de l’unité. Nos produits sont conçus de façon à séparer la section cabine de la section cargo, créant ainsi une barrière acoustique naturelle entre les outils et l’équipement que vous transportez. En effet, l’utilisateur n’entendra plus les bruits provenant de l’arrière durant le transport.</p><p>En plus de réduire le bruit, le SpaceKap prévient les émanations provenant de l’arrière lors du transport de produits chimiques, d’huile ou de gaz.<br>Le conducteur du <b>SpaceKap</b> pourra également profiter d’une cabine plus fraîche en été et plus chaude en hiver, parce qu’il contrôle mieux son espace cabine que dans une fourgonnette.</p><p>Finalement, advenant un malencontreux accident, le conducteur et ses passagers auront moins de chance d’être blessés et seront plus en sécurité.</p><p>Le <b>WILD</b> est vraiment la meilleure alternative à la fourgonnette !</p><p> <a href='https://vimeo.com/175437498'>Voir la vidéo!</a></p>",
+		"lnkContact": "https://fibrobec.com/contact/",
+		"lnkCart": " "
+	},
+
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "60px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+    "controlBar": {
+        "lnkSpriteZoom": [
+            {
+                "range": "010-041",
+                "data": ""
+            }
+        ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "slider-arrow",
+            "flag_thumbnail": false,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": true,
+            "flag_lnkVideo": false,
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "left",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": false,
+            "flag_lnkLink": "left",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "frameTime": 80,
+    "reverse": false,
+    "animate": false,
+    	"div": {
+        "lang": "fr",
+        "frame": "0,45",
+        "countdown": "1"
+	}
+}

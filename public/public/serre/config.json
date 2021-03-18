@@ -1,0 +1,133 @@
+{
+  "fr": {
+    "titleText": "La Serre en folie",
+    "frames": {
+      "000-004": "La Serre en folie, c’est du plaisir, de la santé et des économies pour le jardinier avisé et gourmet. C’est l’autonomie alimentaire à longueur d’année. Pour quelques dollars vous aménagerez jardinières, potager intérieur, jardin et rocailles.",
+      "005-009": " La Serre en folie est faite de trois unités de croissance et d’un dessus auto-chauffant servant à la germination. Sa capacité de production peut servir à la fois à la récolte, à la croissance et à la germination.",
+      "010-013": "La Serre en folie consomme moins de 140 watts/heure soit environ 0,10$ à 0,12$ par jour d’utilisation. Les panneaux de croissance de 600 DELs servant aussi de tapis chauffant et couvre la totalité de sa surface en exposant uniformément toutes les plantes à la lumière.",
+      "014-017": "La serre en folie de 24 X 11 X 55 pouces est munie trois unités de culture de 11 X 24 pouces. Élégante et peu encombrante, autosuffisante en lumière, il n’est pas nécessaire d’avoir un éclairage ambiant.  Le rayonnement de 450nm à 660nm assure la photosynthèse nécessaire à la croissance des plantes.",
+      "018-021": "D’une conception simple se basant sur les données connues de croissance et de culture. Elle facilite la création d’agencements de fines herbes et de plantes potagères aux valeurs nutritives, aromatiques et médicinales. Votre nourriture est sans herbicide, pesticide et ni génétiquement modifiée.",
+      "022-025": "Économie, écologie, recyclage  et santé sont les attributs qui rendent la Serre en folie unique. Recyclez les contenants domestiques, consommez vos fines herbes, plantes potagères et repousses,  tout au long de l’année, vous rentabiliserez votre achat très tôt dès les premiers mois.",
+      "026-029": "Cultivez dès maintenant des variétés de fines herbes aux propriétés médicinales, aromatiques ou culinaires, des plantes potagères ou des fleurs. Offrez vous un potager chez vous et des produits frais à portée de votre main.",
+      "030-034": "Le système utilisé par la Serre en folie se base sur la capillarité. Les plantes puisent l’eau nécessaire à leur croissance et maturité dans un bassin situé sous un tapis flottant portant les godets et/ou alvéoles.",
+      "035-040": "Offrez-vous la saveur, la fraîcheur, la disponibilité et le plaisir de découvrir la culture de vos aliments!"
+	},
+
+	"lnkComVveeZaV": " ",
+    "lblCommunication": " ",
+    "lblTechSpecification": "Communications",
+    "lnkPhone": "450-445-6015",
+    "lnkMail": "apronovost@serreenfolie.com?Subject=Demande d'information",
+    "lnkDownload": " ",
+    "lnkVideo": " ",
+    "lnkAudio": " ",
+    "lnkDoc": " ",
+    "lnkLink": "https://www.serreenfolie.com/potagers-interieurs",
+    "lnkInfo": " ",
+    "lnkContact": "https://www.serreenfolie.com/contactez-nous",
+    "lnkCart": "https://www.serreenfolie.com/serre-en-folie-commander"
+  },
+
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "80px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+    "controlBar": {
+        "lnkSpriteZoom": [
+        {
+            "range": "000-010",
+            "data": "/details/serre_D_00_00.jpg"
+        },
+                {
+            "range": "011-020",
+            "data": "/details/serre_D_00_01.jpg"
+        },
+                {
+            "range": "021-030",
+            "data": "/details/serre_D_00_02.jpg"
+        },
+        {
+            "range": "031-039",
+            "data": "/details/serre_D_00_03.jpg"
+        }
+    ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "slider-arrow",
+            "flag_thumbnail": true,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": "false",
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "false",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": true,
+            "flag_lnkLink": "left",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": true
+        }
+    },
+    "frameTime": 80,
+    "reverse": false,
+    "animate": false,
+    	"div": {
+        "lang": "fr",
+        "frame": "0,39",
+        "countdown": "1"
+	}
+}

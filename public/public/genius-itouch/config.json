@@ -1,0 +1,160 @@
+{
+    "en": {
+        "titleText": "Genius iTouch Control",
+       "frames": {
+            "000-009": "1. Solid casing with waterproof sealing.",
+            "010-019": "2. Bright visuals for quick identification of consumption information.",
+            "020-029": "3. Opening for additive intake.",
+            "030-041": "4. Cellphone connection to FarmQuest for real-time management and access to livestock and farm data (Free of charge)."
+        },
+        "lnkComVveeZaV": " ",
+        "lblCommunication": "Specificities",
+        "lblTechSpecification": "Communication",
+        "lnkPhone": "1 450 641-4810",
+        "lnkMail": " ",
+        "lnkDownload": " ",
+        "lnkVideo": " ",
+        "lnkAudio": " ",
+        "lnkDoc": " ",
+        "lnkLink": " ",
+        "lnkInfo": "<ul><li>10-inch user-friendly touch screen.</li><li>Management of ventilation, heating, animal and feed inventory, animal weight and consumption, static pressure and humidity.</li><li>History data and production of inspection forms.</li><li>Personalized email and text alerts.</li></ul>",
+        "lnkContact": "https://monitrol.com/en/contact/",
+        "lnkCart": " "
+    },
+    "fr": {
+        "titleText": "Contrôle iTouch de Genius",
+        "frames": {
+            "000-009": "1. Boîtier solide avec fermeture étanche.",
+            "010-019": "2. Témoins lumineux pour repérage rapide de l’information sur la consommation.",
+            "020-029": "3. Ouverture pour ajout d’additif.",
+            "030-041": "4. Connecté par cellulaire à FarmQuest pour une gestion à distance et un accès temps réel aux données d’élevage et de la ferme (Sans Frais)."
+        },
+        "lnkComVveeZaV": " ",
+        "lblCommunication": "Spécificités",
+        "lblTechSpecification": "Communications",
+        "lnkPhone": "1 450 641-4810",
+        "lnkMail": " ",
+        "lnkDownload": " ",
+        "lnkVideo": " ",
+        "lnkAudio": " ",
+        "lnkDoc": " ",
+        "lnkLink": " ",
+        "lnkInfo": "<ul><li>Écran 10’’ tactile et convivial.</li><li>Gestion de la ventilation, chauffage, inventaire des animaux et des aliments, poids et consommation des animaux ainsi que le contrôle de l’éclairage, pression statique et taux d’humidité.</li><li>Données de votre historique et production des formulaires d’inspection.</li><li>Alertes personnalisées par courriel ou message texte.</li></ul>",
+        "lnkContact": "https://monitrol.com/nous-joindre/",
+        "lnkCart": " "
+    },
+     "es": {
+        "titleText": "Control inteligente iTouch",
+        "frames": {
+            "000-009": "1. Estuche sólido con cierre impermeable.",
+            "010-019": "2. Luces indicadoras para una rápida identificación de la información de consumo.",
+            "020-029": "3. Apertura para agregar un aditivo.",
+            "030-041": "4. Conectado por teléfono celular a FarmQuest para administración remota y acceso en tiempo real a datos de ganado y granjas (sin cargo)."
+        },
+        "lnkComVveeZaV": " ",
+        "lblCommunication": "Especificidades",
+        "lblTechSpecification": "Comunicaciones",
+        "lnkPhone": "1 450 641-4810",
+        "lnkMail": " ",
+        "lnkDownload": " ",
+        "lnkVideo": " ",
+        "lnkAudio": " ",
+        "lnkDoc": " ",
+        "lnkLink": " ",
+        "lnkInfo": "<ul><li>Pantalla táctil de 10'' fácil de usar.</li><li>Gestión de ventilación, calefacción, inventario de animales y piensos, peso y consumo de animales así como control de iluminación, presión estática y humedad.</li><li>Datos de su historial y producción de formularios de inspección.</li><li>Alertas personalizadas por correo electrónico o mensaje de texto.</li></ul>",
+        "lnkContact": "https://monitrol.com/es/contacto/",
+        "lnkCart": " "
+    },
+     "styles": {
+        "titleText": {
+            "fontFamily": "Futura LT Book,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Futura LT Book,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "40px"
+        },
+        "separator": {
+            "fontFamily": "Futura LT Book,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Futura LT Book,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+
+    "controlBar": {
+        "lnkSpriteZoom": [
+            {
+                "range": "000-041",
+                "data": " "
+            }
+        ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "bar",
+            "flag_thumbnail": false,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": false,
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "left",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": false,
+            "flag_lnkLink": "false",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "langButton": true,
+    "frameTime": 80,
+    "reverse": false,
+    "animate": true,
+    	"div": {
+        "lang": "fr,en",
+        "frame": "0,41",
+        "countdown": "1"
+	}
+}

@@ -1,0 +1,131 @@
+{
+ "fr": {
+        "titleText": "Fenêtre à battant",
+        "frames": {
+            "000-007": "1- Chez Portes & Fenêtres Président, nos fenêtres à battants, aussi appelées « fenêtres à manivelle », sont conçues et fabriquées selon les plus hauts standards de qualité.",
+            "008-015": "2- La création, le design, le choix des composants et la qualité de l’assemblage nous permettent de vous offrir un produit inégalé sur le marché.",
+            "016-022": "3- La fenêtre à battants s’ouvre sur le côté et vers l’extérieur, selon un axe vertical, à l’aide d’une manivelle.",
+            "023-030": "4- La fenêtre à battants s’ouvre sur le côté et vers l’extérieur, selon un axe vertical, à l’aide d’une manivelle.",
+            "031-037": "5- Elle est la solution idéale pour maximiser l’isolation de votre maison.",
+            "038-045": "6- Les fenêtres à battants sont faciles à nettoyer, car le mécanisme d’ouverture se déploie pour permettre l’accès au verre extérieur.",
+            "046-052": "7- Les fenêtres à battants sont faciles à nettoyer, car le mécanisme d’ouverture se déploie pour permettre l’accès au verre extérieur. ",
+            "053-059": "8- La moustiquaire se trouve à l’intérieur, ce qui la protège des intempéries et vous permet de la retirer facilement en prévision de l’hiver."
+        },
+
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "Spécificités",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "1 855 670-4777",
+		"lnkMail": " ",
+		"lnkDownload": " ",
+		"lnkVideo": " ",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://www.portesetfenetrespresident.com/produits/fenetres-a-battant/",
+		"lnkInfo": "<center><img src= '{basePath}/medias/IsothermaPlus-1.jpg' alt='Iso-Terma +' width='100%' height='100%'>",
+		"lnkContact": "https://www.portesetfenetrespresident.com/contact/",
+		"lnkCart": " "
+	},
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "60px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+   "controlBar": {
+		"lnkSpriteZoom": [
+            {
+                "range": "000-015",
+                "data": "/details/fenetre_D_00_03.jpg"
+            },
+             {
+                "range": "016-030",
+                "data": "/details/fenetre_D_00_01.jpg"
+            },
+             {
+                "range": "031-045",
+                "data": "/details/fenetre_D_00_00.jpg"
+            },
+            {
+                "range": "046-059",
+                "data": "/details/fenetre_D_00_02.jpg"
+            }
+        ]
+	},
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "slider-arrow",
+            "flag_thumbnail": true,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": false,
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "left",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": false,
+            "flag_lnkLink": "right",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "frameTime": 80,
+    "reverse": false,
+    "animate": true,
+    	"div": {
+        "lang": "fr",
+        "frame": "0,59",
+        "countdown": "2"
+	}
+}

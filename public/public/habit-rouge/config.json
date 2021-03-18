@@ -1,0 +1,113 @@
+{
+"fr": {
+		"titleText": "Habit bourgogne",
+		"frames": {
+            "000-016": "1- Composition: laine Italienne et fibre laineuse de mohair.",
+            "017-032": "2- Moulin de réputation: VItal Barberis Canonico.",
+            "033-047": "3- Oser la couleur démontre la force de votre personnalité"
+		},
+		"lnkComVveeZaV": " ",
+		"lblCommunication": "",
+		"lblTechSpecification": "Communications",
+		"lnkPhone": "514-730-8560",
+		"lnkMail": "styliste@bo-bonhomme.com?Subject=Demande d'information",
+		"lnkDownload": " ",
+		"lnkVideo": "{medias}/BoBonhomme-720.mp4",
+		"lnkAudio": " ",
+		"lnkDoc": " ",
+		"lnkLink": "https://bo-bonhomme.com/",
+		"lnkInfo": "Chez <a href='https://bo-bonhomme.com/' target='_blank'>Bobonhomme</a> trouvez votre complet sur-mesure<br>Prenez <a href='https://calendly.com/bobonhomme/' target='_blank'>rendez-vous</a>",
+		"lnkContact": "https://bo-bonhomme.com/nous-joindre/",
+		"lnkCart": " "
+	},
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "20px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+    "controlBar": {
+        "lnkSpriteZoom": [
+             {
+                "range": "010-046",
+                "data": " "
+            }
+        ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": true,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "slider-arrow",
+            "flag_thumbnail": false,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": "right",
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "right",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": true,
+            "flag_lnkLink": "false",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "frameTime": 80,
+    "reverse": false,
+    "animate": true,
+    	"div": {
+        "lang": "fr",
+        "frame": "0,46",
+        "countdown": "1"
+	}
+}

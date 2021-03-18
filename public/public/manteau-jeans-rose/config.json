@@ -1,0 +1,114 @@
+{
+    "fr": {
+        "titleText": "Manteau en jeans rose",
+        "frames": {
+            "000-010": " ",
+            "011-020": " ",
+            "021-040": " "
+        },
+        "lnkComVveeZaV": " ",
+        "lblCommunication": " ",
+        "lblTechSpecification": "Communication",
+        "lnkPhone": "450.813.7265",
+        "lnkMail": "info@cequefemmeveutboutique.ca?Subject=Demande d'information",
+        "lnkDownload": " ",
+        "lnkVideo": " ",
+        "lnkAudio": " ",
+        "lnkDoc": " ",
+        "lnkLink": " ",
+        "lnkInfo": "<a href='https://www.cequefemmeveutboutique.ca/' target='_blank'>Ce que femme veut...</a> est votre boutique de bijoux mode, accessoires et vêtements coup de cœur pour les femmes de tous âges et de taille ( xs à xxl) qui désirent se faire plaisir ou offrir un cadeau!",
+		"lnkContact": "https://www.cequefemmeveutboutique.ca/contact",
+        "lnkCart": " "
+    },
+
+    "styles": {
+        "titleText": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "21px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "center",
+            "marginBottom": "1px",
+            "padding": "10px"
+        },
+        "frames": {
+            "padding": "10px 20px 20px",
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "16px",
+            "fontWeight": "normal",
+            "margin": "0",
+            "textAlign": "justify",
+            "marginBottom": "1px",
+            "overflowY": "auto",
+            "height": "0px"
+        },
+        "separator": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        },
+        "lnkInfo": {
+            "fontFamily": "Helvetica,Arial,sans-serif",
+            "color": "#999999",
+            "fontSize": "14px"
+        }
+    },
+    "controlBar": {
+        "lnkSpriteZoom": [
+            {
+                "range": "010-041",
+                "data": " "
+            }
+        ]
+    },
+    "sections": {
+        "border": false,
+        "flag_separator": true,
+        "title": {
+            "visible": true,
+            "border": false
+        },
+        "textContainer": {
+            "visible": false,
+            "border": false
+        },
+        "spriteSpin": {
+            "visible": true,
+            "border": false
+        },
+        "controlBar": {
+            "visible": true,
+            "border": false,
+            "type": "bar",
+            "flag_thumbnail": false,
+            "flag_zoom": true
+        },
+        "lnkContainer": {
+            "visible": true,
+            "border": false,
+            "flag_lnkDownload": false,
+            "flag_lnkVideo": false,
+            "flag_lnkAudio": false,
+            "flag_lnkDoc": false,
+            "flag_lnkInfo": "right",
+            "flag_lnkInfo_class": "openModal lnkIcon lnkInfo",
+            "flag_lnkContact": true,
+            "flag_lnkPhone": true,
+            "flag_lnkMail": true,
+            "flag_lnkLink": "false",
+            "flag_lnkLink_class": "lnkIcon lnkLink",
+            "flag_lnkComVveeZaV": false,
+            "flag_lnkCart": false
+        }
+    },
+    "frameTime": 160,
+    "reverse": false,
+    "animate": false,
+    	"div": {
+        "lang": "fr",
+        "frame": "0,39",
+        "countdown": "1"
+	}
+}
