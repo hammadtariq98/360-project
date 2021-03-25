@@ -13,7 +13,7 @@ import RealisationIASO from './../views/realisation-IASO.vue'
 import RealisationInnotag from './../views/realisation-Innotag.vue'
 import RealisationSacsindustriels from './../views/realisation-Sacsindustriels.vue'
 import RealisationPresident from './../views/realisation-President.vue'
-
+import NotFound from '../components/404/404.vue';
 const routes = [
   {
     path: '/',
@@ -92,6 +92,11 @@ const routes = [
     path: '/realisation-Sacsindustriels',
     name: 'RealisationSacsindustriels',
     component: RealisationSacsindustriels
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: NotFound,
   }
 ]
 

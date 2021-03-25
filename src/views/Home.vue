@@ -238,25 +238,7 @@
           </div>
         </div>
         <div class="col-sm-6 exemple">
-          <!-- <div class="">
-            <div class="app-figure" id="zoom-fig">
-                <a id="spin-1" class="Magic360"
-                    href="../../public/large/alternateur_L_00_00.jpg"
-                ><img src="../../public/large/alternateur_L_00_00.jpg"></a>
-            </div>
-            <div class="api-controls">
-                <button class="cfg-btn" onclick="Magic360.spin('spin-1');"><i class="far fa-play-circle"></i></button>
-                <button class="cfg-btn" onclick="Magic360.pause('spin-1');"><i class="fas fa-stop-circle"></i></button>
-                <span class="sep-sm"></span>
-                <button class="cfg-btn" onclick="Magic360.spin('spin-1', -1);"><i class="fas fa-undo-alt"></i></button>
-                <button class="cfg-btn" onclick="Magic360.spin('spin-1', 1);"><i class="fas fa-redo-alt"></i></button>
-                <span class="sep"></span>
-                <span class="sep-sm"></span>
-                <button class="cfg-btn" onclick="Magic360.magnifyOn('spin-1');"><i class="fas fa-search-plus"></i></button>
-                <button class="cfg-btn" onclick="Magic360.magnifyOff('spin-1');"><i class="fas fa-search-minus"></i></button>
-                <button class="cfg-btn" onclick="Magic360.fullscreen('spin-1');"><i class="fas fa-expand"></i></button>
-            </div>
-          </div> -->
+            <iframe src="assets/visionneuse/enveloppe-hologramme/index.html" scrolling="no" frameborder="0"></iframe>
         </div>
       </div>
     </section>
